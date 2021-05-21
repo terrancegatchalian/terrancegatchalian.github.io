@@ -2,7 +2,7 @@
 title: "CV"
 excerpt: "My CV"
 sitemap: false
-permalink: /cv.html
+permalink: /cv/
 ---
 
 CV to appear here
