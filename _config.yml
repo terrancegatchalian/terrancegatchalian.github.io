@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Terrance Gatchalian"
   avatar           : "profile.png"
-  bio              : "Ph.D Student<br>@ McGill University"
+  bio              : "Ph.D Student<br> Department of Linguistics, McGill University"
   location         : "Montreal, QC"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "terrance[dot]gatchalian (at) mail [dot] mcgill [dot] ca"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
