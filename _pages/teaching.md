@@ -9,7 +9,7 @@ author_profile: true
 ### At McGill University
 | Year      | Code                                  | Instructor            |
 |-----------|---------------------------------------|-----------------------|
-|Fall 2021  | LING 371: Syntax I                    |                       |
+|Fall 2021  | LING 371: Syntax I                    | .                     |
 
 ### At the University of British Columbia
 
