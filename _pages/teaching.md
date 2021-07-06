@@ -15,5 +15,5 @@ author_profile: true
 
 | Year       | Code                                  | Instructor            |
 |------------|---------------------------------------|-----------------------|
-| 2018W1-2   | LING 311: Studies in Phonology        | Douglas Pulleyblank   |
-| 2017W1LING | LING 311: Studies in Phonology        | Douglas Pulleyblank   |
+| 2018 W1-2  | LING 311: Studies in Phonology        | Douglas Pulleyblank   |
+| 2017 W1    | LING 311: Studies in Phonology        | Douglas Pulleyblank   |
