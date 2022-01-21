@@ -8,7 +8,7 @@ author_profile: true
 ## Teaching Assistant
 ### At McGill University
 - **LING 371: Syntax I**, Fall 2021. Instructor: Junko Shimoyama
-- - **LING 371: Syntax I**, Winter 2022. Instructor: Martina Martinović
+- **LING 371: Syntax I**, Winter 2022. Instructor: Martina Martinović
 
 ### At the University of British Columbia
 
