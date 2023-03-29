@@ -5,6 +5,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
+## Instructor of Record
+### At McGill University
+
+- **LING 201: Introuction to Linguistics**, Winter 2023. Co-Instructor: Junko Shimoyama
+
 ## Teaching Assistant
 ### At McGill University
 
