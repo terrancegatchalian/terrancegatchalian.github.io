@@ -15,20 +15,20 @@ Please get in touch for any papers not available here.
 
 * What’s in a copula: Non-verbal predication in Kirundi. (in press). Toronto Working Papers in Lingustics.
 
-Propositional Attitude Verbs and Complementizers in Medumba. (2021). *Proceedings of ACAL 49*. Language Sciences Press. (with Rachel Lee, and Carolin Tyrchan.)
+* Propositional Attitude Verbs and Complementizers in Medumba. (2021). *Proceedings of ACAL 49*. Language Sciences Press. (with Rachel Lee, and Carolin Tyrchan.)
 
-Deverbal Nominalizations in Ktunaxa. (2020). *Zeitschrift für Wortbildung / Journal of Word Formation 4*, 60-77.
+* Deverbal Nominalizations in Ktunaxa. (2020). *Zeitschrift für Wortbildung / Journal of Word Formation 4*, 60-77.
 
 
 ## Presentations
 
-What’s in a copula: Non-verbal predication in Kirundi. (2022). Talk presented at Ba-TOM: The 1st Toronto-Montreal Bantu Colloquium, University of Toronto Scarborough, 27-28 May 2022, Toronto.
+* What’s in a copula: Non-verbal predication in Kirundi. (2022). Talk presented at Ba-TOM: The 1st Toronto-Montreal Bantu Colloquium, University of Toronto Scarborough, 27-28 May 2022, Toronto.
 
-The composition of Ktunaxa causatives: Argument- and event-structure restrictions. (2022). Poster presented at the Canadian Linguistics Association Annual Meeting.
+* The composition of Ktunaxa causatives: Argument- and event-structure restrictions. (2022). Poster presented at the Canadian Linguistics Association Annual Meeting.
 
-Building Ktunaxa Causatives. (2022). Talk presented at The 10th Montréal-Ottawa-Toronto-Hamilton Syntax Workshop (MOTH), Université du Québec à Montréal, 22-23 April 2022, Montréal.
+* Building Ktunaxa Causatives. (2022). Talk presented at The 10th Montréal-Ottawa-Toronto-Hamilton Syntax Workshop (MOTH), Université du Québec à Montréal, 22-23 April 2022, Montréal.
 
-Deverbal Nominalizations in Ktunaxa. (2019). The 8th Workshop on Nominalizations/8èmes Journées d’Etude sur les Nominalisation (Jenom 8). University of Stuttgart. Stuttgart, Germany. 
+* Deverbal Nominalizations in Ktunaxa. (2019). The 8th Workshop on Nominalizations/8èmes Journées d’Etude sur les Nominalisation (Jenom 8). University of Stuttgart. Stuttgart, Germany. 
 
 ## Manuscripts
 
