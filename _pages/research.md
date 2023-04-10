@@ -22,7 +22,7 @@ Please get in touch for any papers not available here.
 
 ## Presentations
 
-*  2022. What’s in a copula: Non-verbal predication in Kirundi. Talk presented at Ba-TOM: The 1st Toronto-Montreal Bantu Colloquium, University of Toronto Scarborough, 27-28 May 2022, Toronto.
+2022. What’s in a copula: Non-verbal predication in Kirundi. Talk presented at Ba-TOM: The 1st Toronto-Montreal Bantu Colloquium, University of Toronto Scarborough, 27-28 May 2022, Toronto.
 
 *  2022. The composition of Ktunaxa causatives: Argument- and event-structure restrictions. Poster presented at the Canadian Linguistics Association Annual Meeting.
 
