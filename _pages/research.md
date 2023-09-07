@@ -22,7 +22,7 @@ Please get in touch for any papers not available here.
 
 ## Presentations
 
-* Focus fronting and copular constructions in Kirundi (2023).
+* Focus fronting and copular constructions in Kirundi (2023). [[handout]](/_pages/papers/gatchalian-acal54-kirundi.pdf)
   - Talk presented at the [Annual Conference on African Linguistics (ACAL) 54](https://uconnuecs.cventevents.com/event/aef2d257-6a6a-41b5-b83d-2c6efc60aac5/summary), University of Connecticut, Storrs, CT, 12-14 June.
   - Talk presented at the [BaSIS conference](https://bantusyntaxinformationstructure.com/basis-conference/), Leiden University, the Netherlands, 8-9 June. 
 
