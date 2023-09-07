@@ -28,7 +28,7 @@ Please get in touch for any papers not available here.
 
 * Kirundi Ā-movement and non-verbal predication (2023). Poster presented at the [West Coast Conference on Formal Linguistics (WCCFL) 41](https://babel.ucsc.edu/wccfl41/), UC Santa Cruz, 5-7 May.
 
-* _with Tehokwiráthe Cross, Katya Morgunova, Willie Myers, Ro’nikonhkátste Norton_. Lexical aspect and the stative present in Kanien’kéha (2023). Talk presented at [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 2023](https://wscla2023.mull-lab.org/), McGill University, Montréal, 28-30 April.
+* _with Tehokwiráthe Cross, [Katya Morgunova](https://morgunova-katya.github.io/), [Willie Myers](https://williemyers.com/), Ro’nikonhkátste Norton_. Lexical aspect and the stative present in Kanien’kéha (2023). Talk presented at [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 2023](https://wscla2023.mull-lab.org/), McGill University, Montréal, 28-30 April.
 
 * *with Rose Underhill & Anne Bertrand.* A typology of roots in Ktunaxa (2023). Talk presented at [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 2023](https://wscla2023.mull-lab.org/), McGill University, Montréal, 28-30 April.
   
