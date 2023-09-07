@@ -33,6 +33,6 @@ Please get in touch for any papers not available here.
 ## Manuscripts
 
 *  Paper on Ktunaxa causatives. 
-*  Paper on Kirundi focus fronting and copular clauses.
+*  Paper on Kirundi focus fronting and copular clauses. [[download](/papers/kir-ni.pdf)]
 
 
