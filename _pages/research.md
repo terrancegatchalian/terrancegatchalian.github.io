@@ -13,6 +13,8 @@ Please get in touch for any papers not available here.
 
 ## Proceedings and Working Papers
 
+* A-bar clefts in Kirundi and elsewhere. (in press). WCCFL 41 Proceedings. [[download]](/_pages/papers/tg-wccfl-proceedings.pdf)
+
 * What’s in a copula: Non-verbal predication in Kirundi. (in press). Toronto Working Papers in Lingustics.
 
 * Propositional Attitude Verbs and Complementizers in Medumba. (2021). *Proceedings of ACAL 49*. Language Sciences Press. (with Rachel Lee, and Carolin Tyrchan.) [[link]](https://langsci-press.org/catalog/book/306) [[download]](/_pages/papers/306-Sibanda-2022-10.pdf)
