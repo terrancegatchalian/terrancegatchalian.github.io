@@ -1,0 +1,1924 @@
+%!TEX program = xelatex
+
+\documentclass[12pt]{article}
+\usepackage[brill]{terrance}
+ \usepackage{makecell}
+ \usepackage{xcolor,soul}
+ 
+%\usepackage{expex}
+%\definelingstyle{Kir}{everygla=}
+%
+%\usetikzlibrary{arrows.meta}
+%\tikzset{exarrows/.style={semithick,
+%arrows={-Stealth[scale=1, scale length=1,
+%scale width=1]}}}
+
+\usepackage{graphicx}
+
+\usepackage{arydshln}
+%\setlength\parindent{0pt}
+
+\title{Non-verbal clauses in Kirundi: Focus and non-verbal predication\thanks{Acknowlegements}}
+\author{\FNAME{} \LNAME{}\\2nd PhD Evaluation, McGill University}
+\date{\tit{rev.} 29 May 2023}
+
+\begin{document}
+\pagenumbering{roman}
+\maketitle
+%
+%\begin{abstract}
+%Abstract here.
+%\end{abstract}
+
+{\footnotesize \tableofcontents}
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+One strategy for expressing focus in Kirundi (Bantu, J/D62 spoken in primarily in Burundi) is an \abar{}-fronting construction, obligatorily accompanied by the sentence-initial particle \tit{ni} illustrated in (\ref{first-ex})\footnotemark{} Anticipating the discussion below, I will refer to these constructions as ``clefts'' and the derivational process resulting in them as ``fronting''. I will elaborate on these terms more precisely below. 
+
+\footnotetext{Glossing abbreviations here. Additional information about the language.}
+
+\bex
+\ex \bxl
+	\ex []{\gll	Yohaáni a-a-som-ye igitabu\\
+			Yohani \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+		\glt	`Yohani read a book.' \hfill (neutral sentence)
+		}
+	\ex []{\gll	Ni \tbf{igitabu} Yohaáni a-a-som-yé \\
+			\tsc{ni} 7book Yohani \tsc{1sm-pst-}read-\tsc{pfv.rel}\\
+		\glt	`It's the book that Yohani read.' \hfill (\tit{ni}-accompanied fronting)
+		} \label{first-ex}
+\fxl
+\fex
+
+
+Across Bantu and African languages more broadly, there have been various proposals put forward for similar constructions, with analyses falling into two distinct families. One family of analyses analyzes the accompanying particle as a focus marker, typically understood as instantiating a left peripheral Foc head (\citealt{rizzi-1997}; see \citealt{aboh-2016}). While this highly influential account has been widely adopted (for example, see \citealt{abels-muriungi-2008}, Kîîtharaka; \citealt{hartmann-zimmermann-2012}, Bura (Chadic); \citealt{green-2007}, Hausa (Chadic), among others), the particular properties of the Bantu constructions, of which Kirundi is a fairly typical exponent, poses a persistent challenge for such an analysis. In particular, the word order of the hypothesized focus head and the fronted constituent have led to non-trivial challenges for adopting the Rizzian proposal (see \citealt{fschwarz-2003,yuan-2017} for discussion and a possible solution). This paper defends an alternative view, where constructions like (\ref{first-ex}) are analyzed as biclausal clefts \citep{zentz-2016}.
+
+More specifically, I propose that these structures consist of a syntactically highly reduced and semantically expletive matrix clause. I argue that Kirundi clefts differ sharply from English clefts in that the matrix clause is syntactically non-verbal, headed by a non-verbal predicator \tit{ni}, rather than a verbal copula like English \tsc{be}. That is, while the Kirundi cleft structure is bi-clausal, they are mono-verbal. I spell out this hypothesis in crucial contrast to the widespread, and often implicit, structural assumption that (cognates of) \tit{ni} is part of the verbal extended projection (for e.g., \citealt{zentz-2016}). The argument rests on taking seriously the formal similarities between the particle in clefts and the copular element in non-verbal predication (see \S\ref{sec:copula} for an explicit definition of the copula as a non-verbal functional item).
+
+As such, I have two interrelated goals in this paper. Firstly, I present an analysis of the \tit{ni} accompanied fronting constructions in Kirundi as an \abar{}-movement construction, supported with novel elicitated data. Second, I spell out the cleft analysis and motivate a non-verbal view of the matrix predicate. In (\ref{claims}), I briefly sketch the particular claims to be established under a cleft analysis, and describe the structural proposal to be defended. 
+
+\bex
+\ex\label{claims} \tbf{Claims to establish}
+\bxl
+	\ex\label{claims-abar} The immediately post-\tit{ni} constituent is derived by \abar{}-movement\\
+		{\footnotesize (For similar analyses in Bantu, see e.g. \citealt{schneider-zioga-2007,abels-muriungi-2008}; \citealt[p. 182ff]{zentz-2016}; beyond Bantu, see e.g. \citealt{torrence-2013vol,torrence-2013,klecha-martinovic-2015,martinovic-2021} \tit{inter alia}) }
+	\ex\label{claims-exh} The post-\tit{ni} constituent is interpreted as the exhaustive listing satisfying the predicate in the remnant\\
+		{\footnotesize (For exhaustive identification, see \citealt{horvath-2005,horvath-2007,horvath-2013,green-2007,hartmann-zimmermann-2012,klecha-martinovic-2015,fominyam-simik-2017})} %hartman-zimmermann-2007
+	\ex\label{claims-pred} Kirundi \tit{ni} is a reflex of non-verbal Pred$^{0}$\\
+		{\footnotesize (For similar analyses, see \citealt{wasike-2007}; \citealt[193ff]{diercks-2010})}
+	\ex\label{claims-nonverb} Kirundi \tit{ni}-initial constructions are bi-clausal but mono-verbal, with a defective/expletive \tit{non-verbal} matrix clause\\
+		{\footnotesize (On clefts generally, see e.g. \citealt{ekiss-1998,rochemont-1986,chomsky-1971,jackendoff-1972,akmajian-1970,hedberg-2000}; for Bantu-specific analyses, see e.g. \citealt{wasike-2007,diercks-2010,zentz-2016ho,zentz-2016} \tit{inter alia})}
+\fxl
+\fex
+
+Together, these claims converge on the analysis illustrated in (\ref{ex:first-tree}) for the sentence given in (\ref{first-ex}). The embedded CP is lexically specified to be embedded. The root clause consists of a non-verbal predicator, which I will argue is the same element that appears in nominal and adjectival predication. I argue further using the two contexts in which \tit{ni} occurs, clefts and non-verbal predication, that Pred is distinct from the verbal predicator \tit{v} in that the former obligatorily lacks verbal functional projections such as tense inflection.
+
+\begin{samepage}
+\bex
+\ex \abar{}-derived cleft construction \label{ex:first-tree}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[PredP
+	[\tit{pro}]
+	[{}
+		[Pred\\\tit{ni}]
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C\\Exh]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\fex
+\end{samepage}
+
+%Implications
+In a local sense, this proposal provides a new look at \tit{ni}-constructions in Bantu, and argues for the bi-clausality of these constructions in Kirundi. More broadly, this paper proposes and develops a new structural analysis for clefts, one where the matrix clause is highly deficient. That is, it defines a new way for cleft structures to be bi-clausal: while English clefts consist of two clauses containing verbs (the main predicate and \tit{be}), Kirundi clefts consist of two clauses, only one of which contains a verb. Finally, it defines the properties of a syntactically non-verbal copula (called ``particle copulas'' in \citealt{pustet-2003}), which has been often neglected or abstracted over but which I hope to show permits an insightful analysis for a persistently challenging class of constructions in Bantu syntax. Ultimately, the view we come to is one where ``cleft'' picks out a distinct set of structures across languages. I end in \S\ref{sec:typology} by outlining a novel structural typology of clefts where languages vary in the \tit{verbality} of their copulas, and whether the cleft clause is obligatorily embedded or not. % implications for clefts as a means to syntactically encode focus-presupposition bipartitian is not structurally uniform: the variation comes down to the available means a language has to head a clause.
+
+In other words, I expand upon a proposal made by \citet{ekiss-1998}, who proposes that Hungarian pre-verbal focus and English clefts can be given a partially-unified structural analysis. Specifically, the embedded clause in English clefts is an \abar{}-fronting construction to a clause-internal position, akin to movement to the pre-verbal position in Hungarian. Here I add a third structural possibility, where Kirundi contains the same \abar{}-fronted clause, but is embedded by a minimal, non-verbal clause that is independently motivated by Kirundi non-verbal predication. The resulting view is that ``cleft-like'' constructions are stucturally distinct, but nonetheless share a clause with an \abar{}-fronted constituent; the status of this clause as a root or embedded clause, and the syntactic nature of the embedder, results in three logically possible structural types, which I show are exhaustively represented by Hungarian, English, and Kirundi. This proposal raises the question of whether clefts in other languages, particularly those with ``particle copulas'', may best be analyzed along the lines of the present proposal for Kirundi.
+
+% Methodology
+This paper reports data from elicitation, undertaken from January 2022 – April 2023 in Montreal, Quebec with three speakers of Kirundi. %These speakers include  %Demographic information? 
+
+\section{Kirundi fronting constructions are \abar{}-derived} \label{sec:cleft} 
+
+%[[FIXME: This section introduces scope of data and (briefly) the previous literature, restricts it to the movement cases, and excludes the IAV data. It needs to show that the gap is obligatory, the sbj-obj asymmetry for focus/wh-questions, and the lack of pre-predicative focus found in kiitharaka and kikuyu. Finally, it needs to make a methodological note about QA-congruence and specified contexts as the diagnosis for Focus]]
+
+Kirundi fronting has been described as one of syntactic configurations which express narrow focus on the fronted constituent \citep{edenmyr-2001,lafkioui-et-al-2016}.\footnote{The other means of expressing narrow (or constituent) focus as opposed to broad (or sentence) focus is the conjoint/disjoint alternation \citep{meeussen-1959,ndayiragije-1999,vanderwal-2017,nshemezimana-bostoen-2017}, where the disjoint is taken to correspond to narrow focus on the sentence-final constituent. Beyond the contrast with exhaustivity effects used to argue for a dissociation of fronting and focus in \S\ref{sec:exh}, I will have little to say about this sentence-final constituent focus.} Focused elements and \tit{wh-}constituents may optionally appear fronted to the post-\tit{ni} position. This is illustrated by the pair in (\ref{first-ex}, repeated in \ref{ex:first-rep}). When fronted, they co-occur with an obligatory gap within the remnant.\footnote{There are some exceptions where locative adjuncts are optionally resumed, but I put these aside. These exceptions are common across similar constructions across languages, such as Hungarian \citep{ekiss-1987}.}
+
+To anticipate the account to follow, I will call the construction in  (\ref{ex:first-cleft}) a cleft; I will postpone a discussion on this terminology to \S\ref{sec:analysis}. When relevant, I will make a distinction between the \tit{cleft} as a construction and (\abar{}-)\tit{fronting} as the derivational process resulting in a cleft. Finally, following much of the literature, I will continue to use the term \tsc{focus construction} to refer to the constructions such as (\ref{ex:first-cleft}) in Kirundi and other languages, especially when the source does. There are some concerns that may arise, particularly with respect to the aptness of this term (see \S\ref{sec:exh}), but I retain this usage below for conciseness and because I am unable to verify the information structural properties of the languages other than Kirundi, which I cite below. 
+
+In the remainder of this brief introductory section, I will outline the basic facts concerning Kirundi fronting, with an eye towards demonstrating some of the typically discussed differences displayed across analogous constructions in other Bantu languages. 
+
+\bex
+\ex \label{ex:first-rep}\bxl
+	\ex []{\gll	Yohaáni a-a-som-ye igitabu\\
+			Yohani \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+		\glt	`Yohani read a book.' \hfill (neutral sentence)
+		}
+	\ex []{\gll	Ni \tbf{igitabu}$_{1}$ {[}Yohaáni a-a-som-yé \gap$_{1}$]\\
+			\tsc{ni} 7book Yohani \tsc{1sm-pst-}read-\tsc{pfv.rel} {}\\
+		\glt	`It's \tsc{the book} that Yohani read.' \hfill (fronting with \tit{ni})
+		} \label{ex:first-cleft}
+\fxl
+\fex
+
+%categories that can be fronted: nominals, infinitival complements, phrases, and a subset of adverbials.
+
+As in many Bantu languages, Kirundi exhibits a subject/object asymmetry with respect to fronting (see, e.g.. \citealt{zentz-2016} on Shona). Wh-objects may remain in situ and objects may receive focus interpretation post-verbally, as seen in (\ref{ex:obj-wh}).\footnote{Post-verbal objects however, may not necessarily be in-situ; see \citet{ndayiragije-1999}.} Subjects, however, are obligatorily fronted when they are wh-words or are focused, as seen by the obligatory clefting in (\ref{ex:sbj-wh}).
+
+\bex
+\ex \label{ex:obj-wh}
+\bxl
+\ex[]{\gll	Yohaáni a-a-som-ye ikí?\\
+		Yohani \tsc{1sm-pst-}read-\tsc{pfv} what\\
+	\glt	`Yohani read what?'}
+\ex[]{\gll	N'ikí Yohaáni a-a-som-yé\\
+		\tsc{ni-}what Yohani \tsc{1sm-pst-}read-\tsc{pfv}\\
+	\glt	`What did Yohani read?'}
+\fxl
+\ex \label{ex:sbj-wh}
+\bxl
+\ex[*]{\gll	Ndé a-a-som-ye igitabu?\\
+		who \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+	\glt	Intended: `Who read the book?'}
+\ex[]{\gll	Ni-ndé a-a-som-yé igitabu?\\
+		\tsc{ni-}who \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+	\glt	`Who read the book?'}
+\fxl
+\fex
+
+Finally, in some Bantu languages, the same particle used in focus constructions is also used pre-predicatively to signal predicate focus. This is exemplified in with data from Kîîtharaka (\ref{ex:tha-pred}; \citealt{abels-muriungi-2008}) and Kikuyu (\ref{ex:kikuyu-pred}; \citealt{fschwarz-2003,fschwarz-2007})
+
+\bex
+\ex \tbf{Kîîtharaka pre-predicate focus marker \citep{abels-muriungi-2008}} \label{ex:tha-pred}\bxl
+\ex[]{\gll 	N-Aana a-gûr-ir-e î-buku\\
+		\tsc{foc-}1.Ana \tsc{1.sm-}buy-\tsc{perf-fv} 5-book\\
+	\glt	`\tsc{Ana} bought a book.'}
+\ex[]{\gll 	Maria n-a-gûr-ir-e î-buku\\
+		1.Maria \tsc{foc-1.sm-}buy-\tsc{perf-fv} 5-book\\
+	\glt	`Maria \tsc{bought a book}.'}
+\fxl
+\ex \tbf{Kikuyu pre-predicate focus marker \citep[p. 140, 142]{fschwarz-2003}} \label{ex:kikuyu-pred} \bxl
+\ex[]{\gll	\tbf{ne}-kee Abdul a-ra-nyu-ir-ɛ\\
+		\tsc{fm}-what A. \tsc{sm-t-}drink-\tsc{asp-fv}\\
+	\glt	`\tsc{What} did Abdul drink?}
+\ex[]{\gll	Abdul (ne) a-ra-nyu-ir-ɛ mae\\
+		Abdul \tsc{foc} \tsc{sm-t-}drink-\tsc{asp-fv} 6.water\\
+	\glt	`Abdul \tsc{drank water.}'}
+\fxl
+\fex
+
+The \tit{ni} particle in Kirundi, however, does not have the pre-predicative distribution (similar to, e.g., Shona; \citealt{zentz-2016ho,zentz-2016}). Instead, predicate focus is marked with a distinct verbal prefix, \tit{-ra-}, called the disjoint marker \citep{nshemezimana-bostoen-2017} or the anti-focus marker \citep{ndayiragije-1999}.
+
+\bex
+\ex
+\bxl
+\ex[*]{\gll	Yohaáni ni a-a-som-yé igitabu.\\
+		Yohani \tsc{ni} \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+	\glt	`What did Yohani read?'}
+\ex[]{\gll	Yohaáni a-ra-som-ye igitabu.\\
+		Yohani \tsc{1sm-dj.pst-}read-\tsc{pfv} 7.book\\
+	\glt	`Yohani [read the book]$_{\tsc{f}}$'}
+\fxl
+\fex
+
+\noindent Having looked at the basic properties of Kirundi \tit{ni} constructions in the context of similar structures in the Bantu language family, I will now to discussing their derivation via \abar{}-movement.
+
+%By way of concluding this preliminary section, I will make a brief methodological note. For the Kirundi data in the remainder of this paper, I diagnosed either with question-answer congruence or with constructed contexts presented in English (see \citealt{aissen-toap} for a further overview on general methodological points adopted here on eliciting Topic and Focus). 
+
+\subsection{The fronted constituent is derived by \abar{}-movement} \label{sec:abar-mvt}
+
+In this section, I present data to establish the claim that the fronted constituent arrives in the post-\tit{ni} position through \abar{}-movement. I will show that fronting constructions have three properties which are typically assumed to diagnose \abar{}-movement (see, e.g., \citealt{safir-2019} for a discussion of these diagnostics). 
+
+Firstly, \abar{}-movement can establish a long-distance dependency with its extraction site, by-passing multiple intervening subjects, as seen in (\ref{long-dist}).
+
+\bex
+\ex \tbf{Long-distance dependencies}\label{long-dist}
+\bxl
+\ex[]{	\glll	Kagabo yavúze kó Yohaáni yībaza kó Petero akūnda Kēza.\\
+		Kagabo a-a-vúg-ye kó Yohaáni a-ī-baz-a kó Petero a-kūnd-a Kēza\\
+		1.Kagabo \tsc{1sm-pst-}say-\tsc{pfv} C Yohani \tsc{1sm-rflx-}think-\tsc{ipfv} C Petero \tsc{1sm}-love-\tsc{ipfv} Keza\\
+	\glt	`Kagabo said that Yohani believes that Petero loves Keza.'	
+	} 
+\ex[]{	\glll	Ni Kēza Kagabo yavúze kó Yohaáni yībaza kó Petero akūnda.\\
+		Ni Kēza$_i$ Kagabo a-a-vúg-ye [kó Yohani a-ī-baz-a [kó Petero a-kūnd-a \gap$_i$]]\\
+		\tsc{ni} 1.Keza 1.Kagabo \tsc{1sm-pst-}say-\tsc{pfv} C 1.Yohani \tsc{1sm-rflx-}think-\tsc{ipfv} C Petero \tsc{1sm}-love-\tsc{ipfv}\\
+	\glt	`It's Keza that Kagabo said that Yohani believes that Petero loves.'	
+	} 
+\fxl
+%\ex[]{{[} ni XP$_{i}$ \ldots V \lb{CP} ko$_{\text{C}}$ \ldots V \lb{CP} ko$_{\text{C}}$ \ldots V \_\_\_$_{i}$]]]]}
+\fex 
+
+Secondly, this dependency is island sensitive, showing that it is indeed a movement dependency. This is illustrated for adjunct islands (\ref{island-adj}), relative clause islands (\ref{island-rel-obj}--\ref{island-rel-sbj}), and a language-specific island formed with a quotative complementizer \tit{ngo} (\ref{island-ngo}). For discussion on this last island, see \citet{ndayiragije-1999}.
+
+\begin{samepage}
+\bex
+\ex \tbf{Adjunct Islands}\label{island-adj}
+\bxl
+	\ex[]{	\gll	n-a-gīye kw' isoko [kubēra n-kenér-ye umukâté].\\
+			\tsc{1sg.sm-pst-}walk\tsc{.pfv} to store because \tsc{1sm-}need-\tsc{pfv} bread\\
+	\glt	`I went to the store because I needed bread.'	
+	} 
+%	\ex[]{	\gll	Ni kw' isoko n-a-gīye \gap{} [kubēra n-kenér-ye umukâté].\\
+%			\tsc{ni} to store \tsc{1sg.sm-pst-}walk\tsc{.pfv} {} because \tsc{1sm-}need-\tsc{pfv} bread\\
+%	\glt	`It's to the store I went because I need bread.'	
+%	} 
+	\ex[*]{\gll	Ni umukâté n-a-gīye kw' isoko [kubēra n-kenér-ye \gap{}].\\
+			\tsc{ni} bread \tsc{1sg.sm-pst-}walk\tsc{.pfv} to store because \tsc{1sg.sm-}need-\tsc{pfv} {}\\
+	\glt	`It's bread that I went to the store because I need.'	
+	} 
+\fxl
+\fex
+\end{samepage}
+
+%Relative clause islands:
+
+ \bex
+\ex \tbf{Relative clause island (object)} \label{island-rel-obj}
+\bxl
+	\ex[]{	\gll	Ni igitabu n-a-gúr-ye \gap{} [umugēnzi wā-nje a-a-som-yé].\\
+			\tsc{ni} 4.book \tsc{1sg.sm-pst}-buy-\tsc{pfv} {} 1.friend 1-\tsc{1sg.poss} \tsc{1sg.sm-pst}-read-\tsc{pfv}\\
+	\glt	`It's the book that I bought \gap{} [that my friend read].'	
+	} 
+	\ex[*]{	\gll	Ni umugēnzi wā-nje nagúze igitabu [\gap{} yasómye].\\
+			\tsc{ni} 1.friend 1-\tsc{1sg.poss}  \tsc{1sg.sm-pst}-buy-\tsc{pfv} 4.book {} \tsc{1sg.sm-pst}-read-\tsc{pfv} {}\\
+	\glt	Intended: `It's my friend that I bought the book [that \gap{} read].'	
+	} 
+\fxl
+\ex \tbf{Relative clause island (subject)} \label{island-rel-sbj}
+\bxl
+	\ex[]{	\gll	Ni umūntu n-riko n-ra-ronder-a \gap{} [a-a-na-ib-ye terefone].\\
+			\tsc{ni} 1.person \tsc{1sg.sm-prog?} \tsc{1sg.sm-dj}-search.for-\tsc{ipfv} {} \tsc{1sm-pst-1sg.obj-}steal-\tsc{pfv} 5.phone  \\
+		\glt	`It's the person I'm looking for \gap{} [who stole my phone].'	
+	} 
+	\ex[\#]{	\gll	Ni terefone n-riko n-ra-ronder-a  umūntu [a-a-na-ib-ye \gap{}].\\
+			\tsc{ni} 5.phone \tsc{1sg.sm-prog?} \tsc{1sg.sm-dj}-search.for-\tsc{ipfv} 1.person \tsc{1sm-pst-1sg.obj-}steal-\tsc{pfv} {}\\
+		\glt	Intended: *'It's the phone I'm looking for the person [who stole \gap{}].'\\
+			(OK under interpretation: `It's the phone I'm looking for \gap{} [that the person stole].)'
+	} 
+\fxl
+\fex
+
+%NGO 
+
+\begin{samepage}
+\bex
+\ex \tbf{\tit{ngo}-islands}\label{island-ngo}
+\bxl
+	\ex[]{	\gll	Petero a-a-vúg-ye [ko/ngo Yohàáni a-a-nyō-ye amâzi].\\
+			1.Petero \tsc{1sm-pst}-say-\tsc{pfv} C/C.\tsc{qu} 1.Yohani \tsc{1sm-pst}-drink-\tsc{pfv} 5.water\\
+		\glt	`Peter said that Yohani drank milk.'\\verb is \tit{kunywa} `\tit{drink}'
+	}
+	\ex[]{	\gll	Ni amâzi Petero a-a-vúg-ye [ko/*ngo Yohàáni a-a-nyō-ye \gap{}.]\\
+			\tsc{ni} 5.water 1.Petero \tsc{1sm-pst}-say-\tsc{pfv} C/C.\tsc{qu} 1.Yohani  \tsc{1sm-pst}-drink-\tsc{pfv} {}\\
+		\glt	`It's (only) water that Peter said Yohani drank.'	
+	} 
+%	\ex[*]{	\gll	Ni amâzi Petero yavúze [ngo Yohàáni yanyore \gap{}].\\
+%			\tsc{ni} 5.water 1.Petero \tsc{1sm-pst}-say-\tsc{pfv} C.\tsc{qu}  1.Yohani  \tsc{1sm-pst}-drink-\tsc{pfv} {}\\
+%		\glt	Intended: `It's (only) water that Peter said Yohani drank.'	
+%	} 
+\fxl
+\fex
+\end{samepage}
+
+Together, these properties establish that fronting is related to its extraction site via \abar{}-movement. However, as noted by both \citet{torrence-2013vol,torrence-2013} and \citet{hartmann-zimmermann-2012}, this data is compatible with two hypotheses: a null-operator analysis and a promotion analysis. The null-operator analysis posits \abar{}-movement of a phonologically null operator Op, which is bound by the ostensibly fronted constituent. Under a promotional analysis, wherein the fronted constituent is directly extracted. Following argumentation by \citeauthor{torrence-2013} for Wolof and \citeauthor{hartmann-zimmermann-2012} for Bura, we expect to see reconstruction of the fronted constituent in the latter, but not the former. The following data shows that fronted constituents do indeed reconstruct into the extraction site, supporting a promotional analysis.
+
+Examples are given for Condition A and Condition C. In (\ref{cond-a}), we see that a pronominal interpreted as a reflexive anaphor must be interpreted as bound by the embedded subject. That is, the reflexively interpreted anaphor must reconstruct into its extraction site for Condition A.
+
+\begin{samepage}
+\bex
+\ex \tbf{Condition A reconstruction} \label{cond-a}
+\bxl
+\ex[]{\gll 	Yonaáni$_{1}$ a-a-vúg-ye [kó Petero a-a-bōn-ye [ubwīwé$_{*1/2}$ bwambure]]\\
+		Yohani \tsc{1sm-pst}-say-\tsc{pfv} C Petero \tsc{1sm-pst}-see-\tsc{pfv}  [his.own nakedness]\\
+	\glt	`Yohani$_{1}$ said that Peter$_{2}$ saw his own$_{*1/2}$ nakedness' \hfill (Condition A)
+	} \label{cond-a-base}
+\ex[]{\gll	N' [ubwīwé$_{*1/2}$ bwambure] Yonaáni$_1$ a-a-vúg-ye [ko Petero$_{2}$  a-a-bōn-ye  \gap$_{1}$]\\
+		\tsc{foc}  his.own$_{*1/2}$ nakedness Yohani \tsc{1sm-pst}-say-\tsc{pfv} C 1.Petero \tsc{1sm-pst}-see-\tsc{pfv} {}\\
+	\glt	`It's his own$_{*1/2}$ nakedness who Yohani$_{1}$ said Peter$_{2}$ saw.' \hfill (Condition A reconstruction)
+	} \label{cond-a-reconstr}
+\fxl
+\fex
+\end{samepage}
+
+In (\ref{cond-c-base}), we see that proper name \tit{Yohaáni} cannot be interpreted as co-referential with the matrix \tit{pro}-dropped subject. We see in (\ref{cond-c-recon}) that the R-expression is still ungrammatical when interpreted as coreferential with the subject in the remnant clause. In other words, it obligatorily reconstructs for Condition C.
+
+\bex
+\ex \tbf{Condition C reconstruction} \label{cond-c}
+\bxl
+\ex[]{	\gll 	\tit{pro}$_{*1/3}$ a-a-vúg-ye [kó Petero a-a-bōn-ye Yohaáni$_1$]\\
+		\tit{pro} \tsc{1sm-pst}-say-\tsc{pfv} C Petero \tsc{1sm-pst}-see-\tsc{pfv}  1.Yohani\\
+	\glt	`He$_{*1/3}$ said that Peter saw Yohani$_1$' \hfill (Condition C violation)
+	} \label{cond-c-base}
+\ex[]{\gll	Ni Yohaáni$_1$ [\tit{pro}$_{*1/2}$ a-a-vúg-ye kó Petero  a-a-bōn-ye \gap$_{1}$]\\
+			\tsc{foc} 1.Yohani \tit{pro} \tsc{1sm-pst}-say-\tsc{pfv} C 1.Petero \tsc{1sm-pst}-see-\tsc{pfv} \\
+	\glt	`It's Yohani$_{1}$ who he$_{*1/2}$ said Peter saw.' \hfill (Condition C reconstruction)
+	}\label{cond-c-recon}
+\fxl
+\fex
+
+%Finally, in (\ref{idioms}), we see that fronting of the object in a verb-object idiom can retain the idiomatic meaning.
+%
+%\bex
+%\ex \tbf{Idiom reconstruction} \label{idioms}
+%\bxl
+%\ex[]{\gll	a-a-men-ye agafu\\
+%		\tsc{1sm-pst}-pour-\tsc{pfv} 12.flour\\
+%	\glt	`He revealed the secret (He spilled the beans)'\\
+%		(lit. He poured out the flour)}
+%\ex[]{\gll	N' agafu a-a-men-ye \\
+%		\tsc{foc } 12.flour \tsc{1sm-pst}-pour-\tsc{pfv} \\
+%	\glt	`It's the secret that he revealed.'\\
+%		(lit. It's the flour that he poured out)}
+%\fxl
+%\fex
+
+Together, the data in this section support the hypothesis that the fronted constituent is directly \abar{}-moved into the post-\tit{ni} position, as illustrated in (\ref{struc:abar}).
+
+\bex
+\ex \tbf{Claim (\ref{claims-abar}): fronting is \abar{}-derived} \label{struc:abar}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\fex
+
+
+%\subsection{Fronting and Dislocation: On resumption and Topics} \label{sec:top}
+%
+%Before pursuing the question of the interpretational effects of fronting (\S\ref{sec:exh}) and spelling out the remaining structural hypotheses (\S\ref{sec:analysis}), I would first like to differentiate between two clause-initial positions, both with respect to their interpretation and their syntax. This analytical move becomes important when we consider apparent counterexamples to the generalization that the fronting constructions discussed above all consist of a clause-initial \tit{ni} followed by a fronted XP. Consider the sentence in (\ref{apparent-exception}), where the sentence initial position is occupied by a DP, and the post-\tit{ni} position is occupied with a co-referential strong pronoun. 
+%
+%\bex
+%\ex[]{\gll 	Igitabo, ni-co Yohaáni a-a-som-yé\\
+%		7.book, \tsc{ni-7} Yohani \tsc{1sm-pst}-read-\tsc{pfv}\\
+%	\glt	`It's the book that Yohani read.'} \label{apparent-exception}
+%\fex
+%
+%\citet{edenmyr-2001} briefly discusses these examples, and considers the whole \tit{ni-pron} string to be an emphatic particle.\footnote{teset his ni DP ni pro ... is this two sentences??} However, this misses a generalization that arises when we consider the broader distribution of resumptive elements in Kirundi. In examples such as \label{apparent-exception}, I claim that the initial DP is an adjoined topic. The post-\tit{ni} pronoun is the fronted and constituent, which is base-generated within the remnant. It is obligatorily spelled out in positions where no agreement-marking licenses \tit{pro}-drop. For clarity, I will refer to sentences that include \tit{ni} with a following constituent ``fronting'' and sentences that either do not have \tit{ni} or the pre-\tit{ni} constituent to be ``dislocation''.  
+%%http://www.lingref.com/cpp/wccfl/24/paper1235.pdf on prodrop/ radical prodrop
+%
+%[\tit{NB.} Missing a few examples for now that will fill in the description of resumption, briefly.]
+%%Firstly, consider the data below. These examples show that dislocated arguments obligatorily resume, crucially in contrast to the generalization discussed in \S\ref{sec:???} for fronted constituents. This is only visible in contexts where 
+%%
+%%\bex
+%%\ex resumption with topics object resumption.
+%%\ex no resumption with focus objects.
+%%\fex
+%%
+%%The case for adjuncts is slightly more complex. Locative adjuncts with prepositions can always be resumed, regardless of whether the adjunct is fronted or dislocated (). When the locative preposition is stranded, resumption becomes o bligatory.
+%%
+%%On distribution of pronouns and \tit{pro} 
+%
+%Returning to the apparently exceptional case (\ref{apparent-exception}), both the pre-\tit{ni} and post-\tit{ni} pronominal agree in class and are obligatorily co-referential. When the post-\tit{ni}, the dislocated constituent must be resumed within the remnant and the construction is interpreted with subject focus. 
+%
+%\bex
+%\ex[]{\gll 	Igitabo, ni Yohaáni a-a-*(gi)-som-yé\\
+%		7.book, \tsc{ni} Yohani \tsc{1sm-pst-7obj}-read-\tsc{pfv}\\
+%	\glt	`As for the book, it's \tsc{Yohani} who read it.'} 
+%\fex
+%
+%\bit
+%\item Dislocated constituent is a topic, fronting is ``focus'' (see immediately below)
+%\item On Topics as adjoined vs in a TopicP (will use the Chomskian view here for easy of representation; using a TopP won't change the actual proposal much)
+%\fit
+%
+%This data together points to the dislocated constituent being a clause-external topic, with resumption involving a base-generated \tit{pro} or strong pronoun.\footnote{For now, this remains an assumption. Whether resumption shows properties of \abar{}-movement or not remains to be elicited (see \citealt{mccloskey-2017} for an overview on resumption).}
+%
+%\bex
+%\ex{\footnotesize
+%\begin{forest}
+%for tree = {fairly nice empty nodes}
+%[PredP
+%	[DP\\Igitabu\\`book'\\\tsc{topic}]
+%	[PredP
+%		[\tit{pro}]
+%		[{}
+%			[Pred\\\tit{ni}]
+%			[CP
+%				[DP$_{1}$\\-co\\\tsc{focus}]
+%				[
+%					[C]
+%					[TP [{Yohaáni yasómye \tit{t}$_{1}$}\\`\ldots that Yohani read', roof]]
+%				]
+%			]
+%		]
+%	]
+%]
+%\end{forest}
+%}
+%\fex
+
+\subsection{The fronted constituent is exhaustively identified} \label{sec:exh}
+%[\tit{NB.} This section needs to be fleshed out more -- this ended up being much less important to the overall point, but I could possibly discuss the lack of correspondence between the syntax and IS proposed in the literature. I've read but not fully assimilated the proposal in \citet{klecha-martinovic-2015}, which I think works better here than the Exh-Op C, since it (possibly?) leaves room for non-exhaustive contexts. This would also tie into the typological proposal I make below. I would like to do this for the final/journal submission draft, however.]
+%Contrast this with sentence-final focus non-exhaustivity (see footnote in \S\ref{sec:analysis})
+
+In many languages which have been described as having a dedicated structural focus position, distinct from the base position where prosodic focus can be assigned, the non-canonical word order has been shown to have an additional, truth-conditional interpretive effect.\footnote{There is equally work suggesting that this exhaustivity interpretation is a presupposition, and demonstrating experimentally that the effect is either not present in certain contexts or is weaker than typically assumed (e.g. \citealt{buring-kriz-2013}).}
+
+For at least some speakers, Kirundi shows similar interpretive effects with \tit{ni}-clefts but not with other positions also compatible with focus (such as sentence-final position, \citealt{ndayiragije-1999}). This can be seen in, for example, mention-some contexts which do not pragmatically support an exhaustive answer \citep{cable-foc}.
+
+
+%non-exhaustive contexts (+ usually better to say muri bo when there isn't a rich enough context to license the cleft construction)
+
+\bex
+\ex[]{\gll	Ni ivya-he biharūro bi-gabúr-w-a na kabiri?\\
+		\tsc{ni} 8-which 8.number \tsc{8sm}-divide\tsc{.rel}-\tsc{pass-ipfv} by two\\
+	\glt	`What are the even numbers?' (`Which numbers can be divided by two?')}
+\bxl
+	\ex[]{\gll 	Ibi harūro bi-gabur-w-a na kabiri ni (nka) kabiri, kane, na gatandatu.\\
+			\tsc{8.dem} 8.number \tsc{8sm}-divide-\tsc{pass-ipfv} by two \tsc{ni} (about) two four and six\\
+		\glt	`The numbers divisible by two are (for example) two, four, and six.'  (not exhaustive)
+	}
+	\ex[\#]{\gll	ni kabiri, kane, na gatandatu bi-gabúr-w-a na kabiri\\
+			\tsc{ni} two four and six \tsc{8sm}-divide-\tsc{pass-ipfv} by two\\
+		\glt	`It is two, four, and six that are divisible by two.'\\(ok if these exhaustively pick out options from a list)
+	} \label{ex:exh-cleft}
+\fxl
+\fex
+
+\noindent The above pair illustrates that the exhaustiveness is not tied to \tit{ni}, which appears in both examples, but rather in the movement into post-\tit{ni} position in the cleft example (\ref{ex:exh-cleft}).
+
+\bex
+\ex \tbf{Claim (\ref{claims-exh}): \abar{}-movement is for exhaustivity} \label{struc:exh}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C\\\tsc{exh}]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\fex
+
+For now, I will assume that this position is the specifier of an embedding exhaustifying operator in C, as in (\ref{struc:exh}) which attracts [+exhaustive] constituents to its specifier \citep{horvath-2007,horvath-2013}. While this will likely turn out to be too powerful, it is attractive as an initial hypothesis since it divorces exhaustivity (and focus) from the particle \tit{ni}. 
+
+%presuppositional analysis (buring-kriz, washburn-et-al)
+
+\section{Structurally asymmetrical clefts: embedding by a non-verbal head} \label{sec:analysis}
+
+Having established that the fronted constituent is \abar{}-moved to its surface position, I will develop the central structural claim in this section, namely that these constructions are biclausal clefts, crucially with a syntactically deficient matrix clause. Firstly, in \S\ref{sec:remnant}, I will show that the remnant clause is an embedded, but non-relative, clause (contrary to previous descriptions in \citealt{edenmyr-2001,lafkioui-et-al-2016}) and that the fronted constituent lands clause-internally. Then, I turn briefly to the proposal on the syntactic identity of \tit{ni}, where I propose that it is a non-verbal copula (and crucially distinct from the verbal copula). The upshot of this analysis is spelled out, where the lexical availability of a non-verbal copula results in fully expletive and defective clauses in clefts. This is unlike English, where the matrix clause of clefts centred around the copula necessarily encodes verbal categories such as tense and agreement, on par with lexical verbs.
+
+\subsection{Cleft clauses are embedded clauses} \label{sec:remnant}
+
+In this section, I will outline three morphosyntactic properties that show cleft clauses are embedded. I show that prior analyses which claim that clefts include a relative clause cannot be straightforwardly maintained, firstly on the basis that the properties used to establish this view are in fact properties of non-matrix predicates more generally, and that the fronted constituent does not behave like the head of a relative clause.  
+
+In \S\ref{sec:emb-prop} section, I will first exemplify these so-called ``relative'' properties exemplified by clefts and show that, while these properties are indeed shared with relative clauses in the language, they are not themselves sufficient diagnostics for a formal identification of the cleft clause with relative clauses in general (see \citealt{ekiss-1998} for a similar claim on English clefts). I then go on in \S\ref{sec:agsint-rc} to present two further arguments to show that the remnant clause cannot be straightforwardly analyzed as a relative clause: the ``head'' of the ostensible relative clause is significantly more free than in relative clauses elsewhere, and that relative clauses lack the reconstruction effects seen in  the previous section. 
+
+The upshot of this argument and analysis will turn out to be that, while clefts are often described as having a relative clause (\citealt{akmajian-1970,chomsky-1971,hedberg-2000}; \citealt{lafkioui-et-al-2016} for Kirundi specifically), the Kirundi data presented here provides reason to believe that the state of affairs is not so straightforward. This data sets the stage for a ``promotional analysis'' of clefts developed further in \S\ref{sec:ni-is-pred}, whereby the clefted constituent is directly \abar{}-moved to the embedded-clause initial position and embedded by a matrix predicate (see \citealt{torrence-2013} on Wolof and \citealt{ekiss-1998} on English).
+
+\subsubsection{``Relative properties'' are embedded properties} \label{sec:emb-prop}
+
+The remnant clause in cleft constructions differs from matrix clauses in three ways: (i) the presence of  a high tone (``relative'' tone; \citealt{zorc-nibagwire-2007,lafkioui-et-al-2016}), (ii) the choice of negation \citep{chaperon-batom} and (iii) the obligatory absence of disjoint marking \citep{ndayiragije-1999}. Below, I address each in turn.
+
+Firstly, consider the the tone on neutral sentences in (\ref{matrix-tonea}, \ref{matrix-toneb}), in contrast with high tone that appears on the verb in remnant clauses shown in (\ref{cleft-tonea}, \ref{cleft-toneb}).\footnote{The actual pattern is slightly more complicated, interacting with the lexical high tone and the high tone associated with the tense prefix. The complication is that the recent past has the high tone, which neutralizes the tonal contrast between the high tone which appears in embedded contexts.}
+
+\bex
+\ex \tbf{Clefts take embedded tone}\bxl
+	\ex []{\gll	Yohaáni a-a-som-ye igitabu\\
+			Yohani \tsc{1sm-pst-}read-\tsc{pfv} 7.book\\
+		\glt	`Yohani read a book.' 
+		} \label{matrix-tonea}
+	\ex []{\gll	Ni {igitabu}$_{1}$ {[}Yohaáni \tbf{a-a-som-yé} \gap$_{1}$]\\
+			\tsc{ni} 7book Yohani \tsc{1sm-pst-}read-\tsc{pfv.emb} {}\\
+		\glt	`It's \tsc{the book} that Yohani read.' 
+		} \label{cleft-tonea}
+\fxl
+\ex \bxl
+	\ex []{\gll	Yohaáni a-a-gī-ye ku kazi mugatôndo\\
+			Yohani \tsc{1sm-pst-}go-\tsc{pfv} to work in.morning\\
+		\glt	`Yohani went to work this morning.' 
+		} \label{matrix-toneb}
+	\ex []{\gll	Ni {Yohaáni}$_{1}$ {[}\gap$_{1}$ \tbf{a-a-gī-yé} ku kazi mugatôndo]\\
+			\tsc{ni} Yohani {} \tsc{1sm-pst-}go-\tsc{pfv.rel} to work in.morning\\
+		\glt	`It's \tsc{Yohani} who went to work this morning.' 
+		}\label{cleft-toneb}
+\fxl
+\fex
+
+This tone pattern is shared with relative clauses (as seen in (\ref{ex:rel-tone})), suggesting to previous researchers that the cleft clause is a relative clause \citep{ndayiragije-1999,lafkioui-et-al-2016}. However, non-\abar{} contexts such as embedded clauses  with the complementizer \tit{kó} also require the embedded tone pattern, illustrated in (\ref{ex:emb-tone}).\footnote{See \citealt[p. 325]{zorc-nibagwire-2007} for a list of complementizers with the same property.} As such, the use of the so-called ``relative tone'' is not a sufficient diagnostic to identify the remnant of clefts as a relative clause. 
+
+\bex
+\ex \tbf{Embedded tone across contexts}\bxl
+\ex[]{\gll	N-a-bōn-ye igitabu Yohaáni \tbf{a-a-som-yé}\\
+		\tsc{1sg.sm-pst-}see-\tsc{pfv} 7.book 1.Yohani \tsc{1sm-pst}-read-\tsc{pfv.emb}\\
+	\glt	`I saw the book that Yohani read.' \hfill (Relative clause)} \label{ex:rel-tone}
+\ex[]{\gll	N-a-vug-ye kó Yohaáni a-a-som-yé igitabu\\
+		\tsc{1sg.sm-pst-}say-\tsc{pfv} that Yohani \tsc{1sm-pst}-read-\tsc{pfv.emb} 7.book\\
+	\glt	`I said that Yohani read a book.' \hfill (Complement clause)} \label{ex:emb-tone}
+\fxl
+\fex
+
+A similar argument can be made from other properties shared by the remnant clause and relative clauses generally being shared by all non-matrix clauses. Consider the negation data in (\ref{ex:sec-neg}). Kirundi predicate negation is expressed by one of two syntactically conditioned markers: a pre-subject-marker \tit{nti-} which occurs in matrix clauses (\ref{ex:sec-neg-matrix}), and a post-subject-marker \tit{-ta} which occurs in remnant clauses of clefts, relative clauses, and embedded clauses (\ref{ex:sec-neg-cleft}); see \citealt{chaperon-batom} for an account. In short, the choice of negation marker correlates with the matrix/non-matrix distinction rather than an A/\abar{} distinction \citep{ndayiragije-1999}.
+
+\bex
+\ex \tbf{Clefts take secondary negation} \label{ex:sec-neg}
+\bxl
+\ex[]{\gll	Yohaáni nti-a-kor-á imikâté\\
+		Yohani \tsc{neg-1sm}-make-\tsc{ipfv.rel} 4.bread\\
+	\glt	`Yohani didn't make bread.'}  \label{ex:sec-neg-matrix}
+\ex[]{\gll	Ni Yohaáni a-da-kor-á imikâté\\
+		\tsc{ni} Yohani \tsc{1sm-neg}-make-\tsc{ipfv.rel} 4.bread\\
+	\glt	`It's \tsc{Yohani} who didn't make bread.'} \label{ex:sec-neg-cleft}
+\fxl
+\fex
+
+Finally, the availability of conjoint/disjoint alternation (or antifocus marker) has been taken to diagnose \abar{}-movement (\citealt[p. xx]{ndayiragije-1999}; \citealt{nshemezimana-bostoen-2017}). The compatibility of the disjoint marker can therefore plausibly be used as an argument to unify the remnant of clefts and relative clauses. Once more, the split is in fact between matrix/non-matrix clauses. While the disjoint/anti-focus marker \tit{-ra-} is available in matrix clauses, it is ruled out in clefts. 
+
+\bex
+\ex \tbf{No \tit{-ra-} in clefts \citep[p.407]{ndayiragije-1999}}\bxl
+\ex[]{\gll	Ni abâna ba-á-(*ra)-nyôye amatá\\
+		\tsc{ni} 2.children \tsc{2sm-dist.pst-ra}-drink.\tsc{perf} 6.milk\\
+	\glt 	`It was children who drank milk.'}
+\ex[]{\gll	Ni amatá abâna ba-á-(*ra)-nyôye\\
+		\tsc{ni} 6.milk children \tsc{2sm-dist.pst-ra}-drink.\tsc{perf}\\
+	\glt 	`It was milk that children drank.'}
+\fxl
+\fex
+
+The data above has shown that a relative clause analysis of the remnant clause of clefts rests on tenuous arguments, where the properties motivating such an analysis are too widespread across non-relative clause contexts to be seen as a sufficiently diagnosing a relative clause structure. Nonetheless, the cleft clause falls into a natural class with other non-matrix clauses in the language, suggesting that they are indeed embedded. I will return to this point in \S\ref{sec:clausehood}, where I discuss various proposals regarding the number of clauses in similar cleft-like structures across Bantu.
+
+\subsubsection{Against fronted constituents as the head of relative clause} \label{sec:agsint-rc}
+
+Above, I established that cleft clauses are embedded, and suggested that the embedded clause is not in fact a relative clause on the basis of the wider distribution of so-called relative properties. Here, I present two arguments which further demonstrate the non-identity between Kirundi relative clauses and cleft clauses.  
+
+The first argument is a familiar argument from \citet{ekiss-1998}, brought up in the context of the extraposition analysis of English clefts. The observation is that clefted constituents are significantly freer than the head of a relative clause with respect to what constituent can occupy this position. Consider the extraposition analysis of \citet{akmajian-1970}, whereby the cleft clause is derivationally related to a free-relative. While unproblematic for  cases where the head of the relative clause is nominal, as in (\ref{ex:extrapose-ok}), challenges arise when the clefted constituent cannot be the head of a relative clause such as in (\ref{ex:extrapose-bad})
+
+\bex
+\ex \tbf{Extraposition analysis  \citep[p. 257]{ekiss-1998}} \label{ex:extrapose-ok}\bxl
+\ex[]{\lb{CP} who is sick\rb{} is me $\rightarrow$}
+\ex[]{it$_i$ is me [who is sick]$_i$}
+\fxl
+\ex \label{ex:extrapose-bad}\bxl
+\ex[]{It was to John [that I spoke]}
+\ex[*]{\lb{CP} that I spoke\rb{} was to John}
+\fxl
+\fex
+
+Kirundi shows similar freedom in what can be clefted. The example in (\ref{adverb}) shows an adverb can be fronted; in (\ref{adjunct-clause}), a full clause can occupy this position. It is unclear what structure a clausally-headed relative clause would have.
+
+\bex
+\ex
+\bxl
+\ex[]{\gll	Ariko ni keénshi tu-ya-reéng-a\\
+		but \tsc{ni} often \tsc{1pl.sbj-pres-6obj-}violate\tsc{-fv.rel}\\
+	\glt	`But it is often that we violate them (the laws)' \\\citep[p. 82]{lafkioui-et-al-2016} 
+	} \label{adverb}
+\ex[]{\gll	Ni [kubêra n-kenéy-e u-mu-kâté] n-a-gīy-e kw' ī-sokó \\	
+		\tsc{ni} because \tsc{1sg.sbj}-need-\tsc{pfv} \tsc{aug-3}-bread \tsc{1sg.sbj-}go.\tsc{rel}-\tsc{pfv} to \tsc{aug}-5.store\\
+	\glt	`It's because I needed bread that I went to the store.'
+	} \label{adjunct-clause}
+\fxl
+\fex
+
+
+%Furthermore, relative clause analyses (and the extraposition analysis specifically) propose that the matrix copula directly selects for the clefted/fronted constituent (see (\ref{ex:extrapose}) above). In Kirundi, locative PPs can occupy the post-\tit{ni} position. This is in stark contrast to predicate locative PPs, where [\tit{ni} PP] is not a grammatical constituent (see \S\ref{sec:copula}). If the \tit{ni} morpheme in both these constructions is one and the same, as I am arguing here, the grammaticality of data  like (\ref{ex:ni-pp}) suggest that \tit{ni} does not directly select for the fronted constituent as in the extraposition analysis.
+
+% REMOVE THIS DISCUSSION. since I put this below in the lowest section, and I think the clearest example here is actually going to be the embedded clause discussion
+%\bex
+%\ex[]{	\gll	Ni kw' isoko n-a-gīye \gap{} [kubēra n-kenér-ye umukâté].\\
+%		\tsc{ni} to store \tsc{1sg.sm-pst-}walk\tsc{.pfv} {} because \tsc{1sm-}need-\tsc{pfv} bread\\
+%	\glt	`It's to the store I went because I need bread.'	
+%} \label{ex:ni-pp}
+%\ex\bxl
+%	\ex[]{
+%		\glll 	Inká \textbf{iri} mu murima.\\
+%			i-n-ká \textbf{i-ri} mu mu-rima\\
+%			\tsc{aug}-9-cow \tsc{9sm}-\textit{ri} in 3-field\\
+%		\glt	`The cow is in the field.'}
+%	\ex[*]{
+%		\glll 	Inká \textbf{ni} mu murima.\\
+%			i-n-ká \textbf{ni} mu mu-rima\\
+%			\tsc{aug}-9-cow \textit{ni} in 3-field\\
+%		\glt	Intended: `The cow is in the field.'}
+%\fxl
+%\fex
+%
+%In other words, the PP-fronting data provides one argument for the position of the fronted constituent: it is moved to a clause internal position, into the left-periphery of the embedded clause (which we have been calling the remnant).
+
+%\bex
+%\ex Bracketed structure showing clause-internal landing site.
+%\fex
+
+I take these data as arguing against analyzing the clefted constituent as the head of a relative clause. However, this does not strictly exclude an analysis similar to the extraposition analysis, whereby the clefted constituent and the cleft clause (as relative clause) are in a looser relationship. Below, I present data that excludes the relative clause analysis of Kirundi clefts by showing that the structures underlying the two constructions distinct. Specifically, I show that they differ in whether the \abar{}-moved constituent reconstructs into the clause: clefted constituents do, relativized constituents do not. 
+
+%Recall from \S\ref{sec:} above that the fronted constituent in clefts reconstructs into its extraction site. I will present data that show that heads of relative clauses do not reconstruct. This difference in reconstruction effects suggests a difference in their derivation: fronting is derived via raising/promotion of the XP and relativization is derived via null-operator movement, and a co-indexed adjoined head (see schenner-2019, salzmann-2019 for overviews on relative clauses and reconstruction phenomena).\footnote{Further, see \citep{szczegielniak-2004} for evidence from Russian and Polish that both strategies can occur within a language.} %and sauerland-98? citations from Manfred Krifka and Mathias Schenner 
+
+Consider the data on binding below. As seen in (\ref{ex:cond-a-rc-base}), the pronominal phrase \tit{ukuboko$_i$ kw-iwe} `his/her/its arm', when the pronominal is interpreted as a bound-variable pronoun, must be interpreted with the pronominal being bound by the most local c-commanding DP. In other words, (\ref{ex:cond-a-rc-base}) is only good when the bound-variable pronoun is the embedded subject; it behaves like an anaphor. 
+
+\begin{samepage}
+\bex
+\ex[]{\gll	Yohaáni$_1$ a-a-vug-ye kó Petero$_2$ a-a-komerek-tse ukuboko$_i$ kw-iwe$_{*1/2}$\\
+		Yohani \tsc{1sm-pst}-say-\tsc{pfv} that Peter \tsc{1sm-pst}-wound-\tsc{pfv} 5.arm \tsc{lk}-his.own\\
+	\glt	`Yohani said that Peter hurt his own arm.'} \label{ex:cond-a-rc-base}
+\fex
+\end{samepage}
+
+Now, consider the data with respect to two \abar{}-fronting processes: relativization in (\ref{ex:cond-a-rc-rc}) and clefting in (\ref{ex:cond-a-rc-cleft}). The result is that the bound-variable pronoun must be interpreted as anaphoric to the matrix subject when relativized, and as anaphoric to the embedded subject when clefted. Clefting, but not relativization, reconstructs for Condition A.
+
+\begin{samepage}
+\bex
+\ex \tbf{Relative clauses do not reconstruct for Condition A}\bxl
+\ex[]{\gll 	Yohaáni$_1$ a-a-hamb-ir-iye [ukuboko$_i$ kw-iwe$_{1/*2}$]$_i$ [Petero$_2$ a-a-komerek-tse \gap{}$_i$]\\
+		Yohani \tsc{1sm-pst}-bury-\tsc{appl-pfv} 5.arm \tsc{lk}-his.own Peter \tsc{1sm-pst}-wound-\tsc{pfv} {}\\
+	\glt	`Yohani bandaged his own arm that Peter hurt.'
+	} \label{ex:cond-a-rc-rc}
+\ex[]{\gll	Ni [ukuboko$_i$ kw-iwe$_{*1/2}$]$_i$ Yohaáni$_1$ a-a-vug-ye kó Petero$_2$ a-a-komerek-tse \gap{}$_i$\\
+		\tsc{ni} 5.arm \tsc{lk}-his.own Yohani \tsc{1sm-pst}-say-\tsc{pfv} that Peter \tsc{1sm-pst}-wound-\tsc{pfv}\\
+	\glt	`It's his arm that Yohani said Peter bandaged.} \label{ex:cond-a-rc-cleft}
+\fxl
+\fex
+\end{samepage}
+
+A similar observation can be made from Condition C reconstruction. In (\ref{cond-c-base-rc}), we see the baseline case where the possessor \tit{Kēza} must be interpreted as disjoint from a pronominal subject, in accordance with Condition C. When the object is relativized as in (\ref{cond-c-rc}), however, the pronominal subject of the relative clause may be interpreted as co-referential as the possessor of the relativized object. This is not the case for the cleft in (\ref{cond-c-clf}), where the possessor is once more obligatorily referentially disjoint from the subject. In other words, clefts, but not relative clauses, reconstruct for Condition C.
+
+\bex
+\ex[]{\gll	\tit{pro}$_{*1/2}$ a-a-shír-ye igitabu cā Kêza$_{1}$ ku mêzá\\
+		\tit{pro} \tsc{1sm-pst}-put-\tsc{pfv} 7.book 7.\tsc{lk} 1.Keza on 5.table\\
+	\glt	`She$_{*1/2}$ put Keza$_{1}$'s book on the table.'} \label{cond-c-base-rc}
+\ex \tbf{Relative clauses do not reconstruct for Condition C}
+\bxl
+\ex[]{\gll	N-a-som-ye [igitabu cā Kêza$_{1}$]$_{i}$ \tit{pro}$_{1/2}$ a-a-shír-ye \gap{}$_{i}$ ku mêzá\\
+		\tsc{1sg.sm-pst}-read-\tsc{pfv} 7.book 7.\tsc{lk} 1.Keza {} \tsc{1sm-pst}-put-\tsc{pfv} on 5.table\\
+	\glt	`I read Keza$_{1}$'s book that she$_{1}$/he$_{2}$ put on the table.'} \label{cond-c-rc}
+\ex[]{\gll	Ni [igitabu cā Kêza$_{1}$]$_{i}$ \tit{pro}$_{*1/2}$ a-a-shír-ye \gap{}$_{i}$ ku mêzá\\
+		\tsc{ni} 7.book 7.\tsc{lk} 1.Keza {} \tsc{1sm-pst}-put-\tsc{pfv} on 5.table\\
+	\glt	`I read Keza$_{1}$'s book that *she$_{1}$/he$_{2}$ put on the table.'} \label{cond-c-clf}
+\fxl
+\fex
+
+The above data all show that the remnant of fronting shares some surface properties with relatives clauses, but cannot ultimately be identified as a relative clause. One proposal to derive this distinction is to analyze clefts as involving a directly \abar{}-moved (promoted) constituent, and the relative clause as involving a null operator co-referential with the nominal it is adjoined to. This analysis, which I adopt here, is spelled out in (\ref{ex:struc-diff-rc-cleft})
+
+\bex
+\ex \tbf{Relative clauses and clefts are structurally different} \label{ex:struc-diff-rc-cleft} \bxl
+\ex \lb{DP} DP$_1$ \lb{CP} Op$_{1,i}$ C \lb{TP} \ldots{} \tit{t}$_i$ \ldots{} \rb{}\rb{}\rb{} \hfill (Relative clause) \label{ex:struc-rc}
+\ex \lb{CP} DP$_i$ C$_{\tsc{exh}}$ \lb{TP} \ldots{} \tit{t}$_i$ \ldots{} \rb{}\rb{} \hfill (Cleft) \label{ex:struc-cleft}
+\fxl
+\fex
+
+In this section, I have established that the cleft clause patterns like other embedded clauses in Kirundi, and that there are reasons to argue against identifying it as a relative clause, despite surface similarities. I showed that reconstruction in Kirundi distinguishes between the clefts and relative clauses, and that clefts are more flexible in what can occur in their clause-initial position, noting similar observations made for English. In the following section, I will consider the second half of my proposal: the nature of the embedding material in clefts. 
+
+%Furthermore, I have briefly shown that the selectional restrictions seen with \tit{ni} in non-verbal predication have no bearing on the category that can front in clefts. This suggests that fronting is to a clause-internal position  as seen in (\ref{ex:struc-cleft}). In the following sections, I will focus on spelling out the role that \tit{ni} plays in clefts.
+
+\subsection{The structure of the matrix clause: Kirundi \tit{ni} is non-verbal Pred} \label{sec:ni-is-pred}
+
+We turn now to the question of what \tit{ni} is doing in these structures. In this section, I will lay out the assumptions I make and discuss the initial motivation for the hypothesis that \tit{ni} is a non-verbal element, which I take structurally to be an instance of non-verbal Pred (see \citealt{adger-ramchand-2003}). The discussion, for now, will be limited to outlining the central consequence of this hypothesis for the structural possibilities available for cleft constructions across languages. In \S\ref{sec:clausehood}, I overview a debate about the number of clauses present in similar constructions across Bantu languages, and call into question one diagnostic presented as conclusive by \citet{zentz-2016ho,zentz-2016}. Then, in \S\ref{sec:matrix-c}, I claim that Kirundi C heads are differentiated into a single matrix C head and multiple obligatorily embedded ones, where all CPs with \abar{} positions fall into the latter. When one of these heads is present, an expletive PredP is used to satisfy this structural requirement without adding additional semantically substantive content; in other words, matrix clauses in clefts are devoid of semantic content (in contrast to the view that matrix material in clefts are semantically substantive, as argued for English by \citealt{hedberg-2000}).
+ %Kirundi sharply differentiates matrix and embedded CPs and that the matrix clause headed by \tit{ni} is expletive (in contrast to the view that matrix material in clefts are semantically substantive, as argued for English by \citealt{hedberg-2000}).
+
+%\bit
+%\item I will propose ultimately that \tit{ni} is a non-verbal copula,\footnotemark{} syntactically a Pred$^0$ of a distinct clause (see \citealt{wasike-2007} for a monoclausal PredP analysis in Lubukusu).
+%\fit
+
+As as starting point, I will consider proposals forwarded for clefts in other Bantu languages. There are two relevant analytical choice points in the literature for cleft constructions: firstly, whether the construction is mono-clausal or bi-clausal \citep{zentz-2016ho}; and secondly, the syntactic/semantic nature of the accompanying particle (analogues of Kirundi \tit{ni}). With respect to the first choice point, I will argue that the mono-/bi-clausal distinction is too blunt, and that Bantu clefts (and Kirundi in particular) show us that a more fine-grained notion of mono-/bi-verbality provides a more insightful way of understanding cleft structures and the often-made observation that clefts and non-verbal predication share significant formal properties \citep{green-2007}. The second choice point regarding the nature of the \tit{ni} is related to the question of verbality in the upper clause of clefts. However, much work on Bantu (which adopt a cleft analysis) assumes that analogues of \tit{ni} is the copula and that it is therefore a verb \citep{zentz-2016ho,zentz-2016}. 
+
+I argue, following the typological distinction made by \citet{pustet-2003} between verbal copulas (such as English \tit{be}) and non-verbal copulas, that the matrix clause of clefts is a non-verbal expletive embedding structure. Crucially, \tit{ni} is not syntactically verbal, and does not support the projection of verbal functional material (the extended projection of the verb).
+
+\bex
+\ex \tbf{Claim (\ref{claims-pred}): \tit{ni} is Pred}\\
+Pred introduces the subject for non-verbal predicates, subject to the restrictions discussed in \S\ref{sec:copula}.
+\ex \tbf{Claim (\ref{claims-nonverb}): \tit{ni} fronting constructions are mono-verbal}\\
+The matrix clause in clefts is semantically expletive, and is syntactically non-verbal. As such, it cannot project verbal functional material such as tense. 
+\fex
+
+The resulting construction is a cleft with a defective, non-verbal root clause, distinct from English type ``symmetric'' clefts where both clauses contain a verbal extended projection. The proposal for Kirundi clefts is illustrated in (\ref{kir-asym}), where the relevant property is the lack of verb in the upper clause. This contrasts with an English-type cleft as illustrated in (\ref{engl-sym}), where the upper clause contains a verbal element \tsc{be}, and is surmounted by additional functional material typically associated with verbs. I will return to develop this idea in \S\ref{sec:typology}, after going through the proposal in more detail in this section. 
+
+\bex
+\ex  \bxl
+\ex Kirundi asymmetric cleft \label{kir-asym}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[PredP
+	[\tit{pro}]
+	[{}
+		[Pred\\\tit{ni}]
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C\\Exh]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\ex English symmetric cleft (after \citealt{ekiss-1998}) \label{engl-sym} \\
+{\scriptsize
+\begin{forest}
+for tree = {fairly nice empty nodes,fit=band}
+[CP
+[C]
+[InflP
+[Infl [V\\\tsc{be}] [Infl]]
+[VP
+	[\tit{pro}]
+	[{}
+		[\tit{t}$_{\text{V}}$\\]
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]]]
+\end{forest}
+}
+\fxl
+\fex
+
+The difference between the two structures is tied entirely to the syntactic properties of the embedding material; in other words, the availability of  the structure (\ref{kir-asym}) in Kirundi is due to the availability of a non-verbal copula in the lexicon. The remaining task will then be to motivate independently the existence of these non-verbal root clauses I will postpone motivating this structural possibility to \S\ref{sec:copula}, where I discuss the distribution of \tit{ni} and the verbal copula in non-verbal predication. In the remainder of this section, I will discuss the clausality question in more detail, defending the bi-clausal status of clefts.
+
+\subsubsection{The clause-hood question: mono-clausal vs. bi-clausal clefts} \label{sec:clausehood}
+
+In this section, I will discuss one previously proposed diagnostic for the number of clauses in the cleft construction. While the question regarding the number of clauses in clefts is closely-related to the question of whether \tit{ni} is a copula or a focus-marker, I show that they are not equivalent. For instance, \citet{wasike-2007} analyzes the Lubukusu equivalent to \tit{ni} as a head within the left-periphery of the cleft clause, but nonetheless maintains the bi-clausality of the overall construction.\footnote{Related proposals consider the copular element to be within the left-periphery of a mono-clausal construction. See \citet{oneill-2019} on English amalgam specificational clauses, and \citet{martinovic-2021move} on Wolof left-peripheral non-verbal predication.} In the end, I will argue here this question of whether clefts are bi-clausal or mono-clausal, in the case of languages like Kirundi, is too coarse of an opposition, leading to the ambiguity of the previously proposed diagnostics. 
+
+Instead, I propose that clefts can be bi-clausal, but need not consist of two \tit{symmetrically sized} clauses. Specifically, I will show that Kirundi clefts consist of a full CP cleft-clause which is embedded by a syntactically reduced PredP. I argue that this PredP lacks the TP functional projection; I will provide independent evidence that this PredP is a licit matrix clause in the language, despite being syntactically quite bare, in the following section where I discuss copular clauses with \tit{ni}.
+
+As a starting point, I will follow closely the overview of clause-hood in clefts across different Bantu languages presented by \citet[p. 1598ff.]{zentz-2016}, who notes that while many diagnostics are ambiguous, there is sufficient evidence to differentiate bi-clausal constructions from mono-clausal ones. The sole diagnostic that he argues is able to differentiate the two is a diagnostic due to \citet{fschwarz-2003,abels-muriungi-2008}, namely whether topicalization of temporal adverbials in cleft construction patterns with bi-clausal or mono-clausal contexts. I will show in this section that topicalization of temporal adverbials does not unambiguously determine the number of clauses in clefts in Kirundi.
+
+The crucial generalization for \citet{fschwarz-2003}, \citet{abels-muriungi-2008}, and \citet{zentz-2016} is the clause-boundedness of left-dislocation. In Kîîtharaka, but not in Shona, left-dislocation of temporal modifiers is permitted from clefts but not from relative clauses. Consider firstly the Kîîtharaka data in (\ref{ex:tha-ld}). In (\ref{ex:tha-lda}), we see that focus constructions permit the left-dislocated temporal adverb \tit{îgoro} `yesterday' to be interpreted as modifying the main predicate (the seeing). However, in the unambiguously bi-clausal relative clause shown in In (\ref{ex:tha-ldb}), the same adverb cannot be interpreted as modifying the main predicate.
+
+\bex
+\ex \tbf{Kîîtharaka relative clauses and focus construction differ for modifier left-dislocation \citep[p. 725]{abels-muriungi-2008}} \label{ex:tha-ld}
+\bxl
+\ex[]{\gll	\tbf{î-goro}$_2$ i-mw-amba$_1$ Peter a-ra-on-ir-e \tit{t}$_1$ \tit{t}$_2$.\\
+		5-yesterday \tsc{foc-1}-thief 1.Peter \tsc{1.sm-rec.pst-}see-\tsc{pfv-fv} {} {}\\
+	\glt	`Yesterday, \tsc{the thief} Peter saw.' \hfill (Left-dislocation ok for focus construction)} \label{ex:tha-lda}
+\ex[*]{\gll	\tbf{î-goro}$_2$ boriisi ba-ka-thaik-a \lb{\tsc{rc}} mw-amba$_1$ û-ra Peter a-ra-on-ir-e \tit{t}$_1$ \tit{t}$_2$].\\
+		5-yesterday 2.police \tsc{2.sm-fut-}arrest-\tsc{fv} {} 1-thief 1-that 1.Peter \tsc{1.sm-rec.pst-}see-\tsc{pfv-fv} {}\\
+	\glt	`Yesterday, the police will arrest the thief that Peter saw.' \\ \hphantom{}\hfill (No left-dislocation for relative clause)} \label{ex:tha-ldb}
+\fxl
+\fex
+
+\noindent This contrast is taken by both \citet{abels-muriungi-2008} and \citet{zentz-2016} to reveal the presence of a clause-boundary in the relative clause case (\ref{ex:tha-ldb}), and the lack of a corresponding boundary in the focus construction (\ref{ex:tha-lda}). The conclusion is therefore that the focus constructions are mono-clausal. 
+
+Consider now the corresponding data in (\ref{ex:sho-ld}) for Shona. We see that adverbial left-dislocation in focus construction shown in (\ref{ex:sho-lda}) is ungrammatical, as is the relative clause case shown in (\ref{ex:sho-ldb}).
+
+\bex
+\ex \tbf{Shona relative clauses and clefts both disallow modifier left-dislocation \cite[p.167]{zentz-2016}}  \label{ex:sho-ld}
+\bxl
+\ex[*]{\gll 	\tbf{Nezuro}$_2$ i-m-bavha$_1$ ya-aka-on-a \tit{t}$_1$ \tit{t}$_2$.\\
+		yesterday \tsc{ni}-9-thief \tsc{9.nse-1.sm.ta-}see-\tsc{fv}\\
+	\glt `Yesterday, it's \tsc{a thief} that s/he saw.' \hfill (No left-dislocation for cleft)} \label{ex:sho-lda}
+\ex[*]{\gll 	\tbf{Nezuro}$_2$ ma-purisa a-cha-sung-a \lb{\tsc{rc}} m-bavha$_1$ ya-aka-on-a \tit{t}$_1$ \tit{t}$_2$].\\
+		yesterday 6-police \tsc{6.sm-fut}-arrest\tsc{-fv} {} 9-thief \tsc{9.nse-1.sm.ta-}see-\tsc{fv}\\
+	\glt `Yesterday, the police will arrest the thief that s/he saw.' \\ \hphantom{}\hfill (No left-dislocation for relative clause)} \label{ex:sho-ldb}
+\fxl
+\fex
+
+From this contrast, \citet[p.168f.]{zentz-2016} concludes that the cleft is bi-clausal. I agree with the general line of reasoning here, but demonstrate that the condition operative in Shona cannot be transfered to Kirundi. With respect to the temporal modification, the Kirundi data patterns like Kîîtharaka. While this would suggest, following \citeauthor{zentz-2016}'s argumentation, that Kirundi clefts are mono-clausal, I will argue that there is another reason why temporal adverbs are unable to be fronted. Crucially, the possibility of left-dislocating from clefts is instead due to the absence of a TP in the matrix clause of Kirundi clefts.\footnote{I do not have an account for the differences in grammaticality between the Shona and Kirundi cases, however. To the extent that Shona clefts are indeed bi-clausal, the account presented below suggests that the matrix clause in Shona clefts may be syntactically richer than that of Kirundi clefts. Whether this can be substantiated empirically cannot be confirmed at present.}
+
+Turning to Kirundi, we see firstly that, like Shona and Kîîtharaka, temporal modifiers cannot be left-dislocated from relative clauses, as seen in (\ref{ex:kir-rc-front}). In contrast, the left-dislocation of temporal modifiers from clefts is grammatical (\ref{ex:kir-cleft-front}).
+
+%\footnotetext{For one speaker, left-dislocation is permissible from relative clauses if the tense of the matrix clause and the relative clause match. 
+%
+%\bex
+%\ex \tbf{Matching tense permits left-dislocation for one speaker}
+%\gll	\tbf{Mūndwi ihezé} n-a-ra-bon-ye umugabo \lb{RC} a-a-tsîn-ze ihiganwa ryo kwiíruká].\\
+%		last.week \tsc{1sg.sm-dj-pst}-see-\tsc{pfv} 1.man {} \tsc{1sm-pst-}win-\tsc{pfv} 5.competition 5.\tsc{lk} to.run \\
+%	\glt	`Last week, I saw to the man who won the race.'
+%\fex
+%
+%This example was judged by this speaker to be felicitous in contexts where the temporal phrase modifies both the matrix verb and the embedded verb. I do not have a clear account for the latter case, and this may be an artefact of this particular example.
+%}
+
+\bex
+\ex \tbf{Kirundi relative clauses disallow modifier left-dislocation} \label{ex:kir-rc-front}
+\bxl
+\ex[]{\gll	N-zō-vug-an-a umugabo \lb{RC} a-a-tsîn-ze ihiganwa ryo kwiíruká \tbf{mūndwi ihezé}].\\
+		\tsc{1sg.sm-fut}-speak-\tsc{com-ipfv} 1.man {} \tsc{1sm-pst-}win-\tsc{pfv} 5.competition 5.\tsc{lk} to.run last.week\\
+	\glt	`I will speak to the man who won the race last week.'}
+\ex[*]{\gll	\tbf{Mūndwi ihezé} n-zō-vug-an-a umugabo \lb{RC} a-a-tsîn-ze ihiganwa ryo kwiíruká].\\
+		last.week \tsc{1sg.sm-fut}-speak-\tsc{com-ipfv} 1.man {} \tsc{1sm-pst-}win-\tsc{pfv} 5.competition 5.\tsc{lk} to.run \\
+	\glt	Intended: `Last week, I will speak to the man who won the race.'}
+\fxl
+\fex
+
+
+\bex
+\ex \tbf{Kirundi clefts allow modifier left-dislocation} \label{ex:kir-cleft-front}
+\bxl
+\ex[]{\gll	Ni \lb{CP} Kagabo \lb{Rem} a-a-tsîn-ze ihigawa ryo kwiíruka \tbf{mūndwi ihezé}]]\\
+		\tsc{ni} {} Kagabo {} \tsc{1sm-pst-}win-\tsc{pfv} 5.competition 5.\tsc{lk} to.run last.week\\
+	\glt	`It's Kagabo that won the race last week.'
+}
+\ex[]{\gll	\tbf{Mūndwi ihezé} ni Kagabo a-a-tsîn-ze ihigawa ryo kwiíruka\\
+		last.week \tsc{ni} Kagabo \tsc{1sm-pst-}win-\tsc{pfv} 5.competition 5.\tsc{lk} to.run \\
+	\glt	`Last week, it's Kagabo that won the race.'
+}
+\fxl
+\fex
+
+The observed variation between the Shona, Kîîtharaka, and Kirundi data is summarized in the table in (\ref{tab:mod-sum}). This picture, taking the argumentation of \citet{abels-muriungi-2008} and \citet{zentz-2016} at face value, directly contradicts the claim made in my account that Kirundi clefts are bi-clausal.
+
+\bex
+\ex \tbf{Summary of cleft variation with respect to left-dislocated modifiers} \label{tab:mod-sum}  \\
+\begin{tabular}{r|c:cc||c}
+\hline\hline
+{} & \multicolumn{2}{c}{Left-dislocation ok?} && Analysis of cleft\\
+{} & Rel. clause & Cleft & {}\\
+\hline
+Shona & * & * && bi-clausal \citep{zentz-2016ho,zentz-2016}\\
+Kîîtharaka & * & $\checkmark$ && mono-clausal \citep{abels-muriungi-2008}\\
+Kirundi & * & $\checkmark$ &&  bi-clausal (present proposal)\\
+\hline\hline
+\end{tabular}
+\fex
+
+However, an alternative account for the left-dislocation facts is available. Note that what is crucial for \citeauthor{zentz-2016} is that left-dislocation is clause-bound in the sense that left-dislocated modifiers may not cross a clause-boundary. However, under the hypothesis that clefts are indeed bi-clausal. Kirundi must crucially permit clause-boundary-crossing for left-dislocated elements. The proper generalization for Kirundi instead appears to be the presence of an intervening tense projection. 
+
+\bex
+\ex \tbf{Generalization for temporal modification}\\
+(Left-discloated) temporal modifiers cannot be interpreted as modifying past any temporal domain, or TP node.
+\fex
+
+In other words, the matrix clause in clefts (headed by \tit{ni}) lacks a possible adjunction site for temporal modifiers. One piece of evidence that \tit{ni}-clauses lack the TP projection entirely comes from coordination data. Note firstly that the coordinator \tit{kāndi} is able to coordinate two verbal predicates (\ref{ex:coord-pred}), and is also able to coordinate two nominal predicates accompanied by \tit{ni} (\ref{ex:coord-nom}).
+ 
+\bex
+\ex \tbf{Coordination with \tit{kāndi}}\bxl
+\ex[]{\gll 	Yohaáni a-ra-som-a kaāndi a-ra-andik-a\\
+		Yohani \tsc{1sm-dj}-read-\tsc{ipfv} \tsc{coord} \tsc{1sm-dj}-write-\tsc{ipfv}\\
+	\glt	`Yohani reads and writes.'} \label{ex:coord-pred}
+\ex[]{\gll 	Yohaáni ni umusomyi kaāndi ni umwanditsi\\
+		Yohani \tsc{ni} reader \tsc{coord} \tsc{ni} writer\\
+	\glt	`Yohani is a reader and a writer.'} \label{ex:coord-nom}
+\fxl
+\fex
+
+\noindent However, non-verbal predicates with \tit{ni} are unable to coordinate with verbal predicates.\footnote{There is some variation with respect to the strength of this ungrammaticality. In any case, the example in ( \ref{ex:coord-ri}) is degraded with respect to the examples in (\ref{ex:coord-pred}) and (\ref{ex:coord-nom}).}
+
+\bex
+\ex\tbf{VP-predicates and \tit{ni}-predicates cannot be coordinated}\bxl
+\ex[?*]{\gll 	Yohaáni a-ra-som-a kaāndi ni umuwanditsi\\
+		Yohani \tsc{1sm-dj}-read-\tsc{ipfv} \tsc{coord} \tsc{ni} writer\\
+	\glt	Intended: `Yohani reads and is a writer.'} \label{ex:coord-ni}
+%\ex[]{to test with AM. -ri is expected to be ok coordinating with VPs} \label{ex:coord-ri}
+\fxl
+\fex
+
+Given the data presented in this section, we have seen that one argument for the presence/absence of a clause-boundary in cleft constructions taken to demonstrate the bi-/mono-clausal status of clefts in two Bantu languages. I showed that the argument is not so unambiguous, and that Kirundi seems to present an intermediate state of affairs -- that is, temporal adverbs may be left-dislocated in clefts (and not in relative clauses), but there is nonetheless reason to believe that the cleft is bi-clausal. I will discuss this latter point in more detail in the following subsection.  Here, I showed that the restriction operative on left-dislocated temporal modifiers in Kirundi is tied specifically to the presence of TP, which clefts are argued here to lack, rather than the weaker condition on clause-boundedness proposed by \citet[p. 80]{fschwarz-2003} for Kikuyu and adopted by \citet{abels-muriungi-2008} for Kîîtharaka and \citet{zentz-2016} for Shona.
+
+\subsubsection{Matrix and non-matrix C} \label{sec:matrix-c}
+
+In this section, I discuss further arguments for the bi-clausality of cleft clauses, showing that they show properties of embedded clauses more generally. PredP is the minimal material permitted in the language to satisfy this embedded clause's requirement that it be selected. 
+
+Given that I have argued immediately above that previously forwarded arguments for mono-/bi-clausality of clefts is not as conclusive as it initially appeared, this section will present one additional argument. In doing so, I address an analytical question that has remained in the background up to this point: namely, if fronting in Kirundi is to an embedded clause-internal position, why is the defective matrix clause headed by \tit{ni} required? To answer this question, consider again the data presented in (\ref{ex:emb-prop}), showing that the remnant of clefts has properties shared by other embedded clauses. In each of the examples in (\ref{ex:emb-prop}), the verb is marked with a high tone on the second mora of the stem (in these examples, falling on the final vowel).
+
+\bex
+\ex[]{\gll	Yohaáni a-a-som-ye igitabu mu gatôndo\\
+		Yohani \tsc{1sm-rec.pst}-read-\tsc{pfv} 7.book in 12.morning\\
+	\glt	`Yohani read a book this morning.'}
+\ex \tbf{Embedded clauses in Kirundi} \label{ex:emb-prop}
+\bxl
+\ex[]{\gll	N-a-vug-ye kó Yohaáni a-a-som-yé igitabu mu gatôndo\\
+		\tsc{1sg.sm-rec.pst-}say-\tsc{pfv} \tsc{comp} Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} 7.book in 12.morning\\
+	\glt	`I said that Yohani read a book this morning.'}
+\ex[]{\gll	N-a-bon-ye igitabu Yohaáni a-a-som-yé mu gatôndo\\
+		\tsc{1sg.sm-rec.pst-}se-\tsc{pfv} 7.book Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} in 12.morning\\
+	\glt	`I saw the book that Yohani read this morning.'}
+\ex[]{\gll	Ni igitabu Yohaáni a-a-som-yé mu gatôndo\\
+		\tsc{ni} 7.book Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} in 12.morning\\
+	\glt	`It's the book that Yohani read this morning.'}
+\ex[]{\gll	Ni iki Yohaáni a-a-som-yé mu gatôndo?\\
+		\tsc{ni} what Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} in 12.morning\\
+	\glt	`What did Yohani read this morning?'}
+\fxl
+\fex
+
+The shared properties seen in these data lead to a generalization that clauses in Kirundi are headed by C marked as either matrix or embedding. The exhaustivity operator, as well as the operators driving \tit{wh}-movement and relativization, are taken here to be covert members of class of embedded complementizers in Kirundi.\footnote{At least a subset of these are overt in some Bantu languages. See, for example, \citealt{schneider-zioga-2007} on Kinande.} This is summarized in (\ref{ex:c-inv}). I take the high tone appearing on the verb to correspond to embedding complementizer.
+
+\bex
+\ex \tbf{Inventory of the C system in Kirundi} \label{ex:c-inv}\\
+{\footnotesize
+\begin{forest}
+for tree = {fit = band}
+[C-head
+	[matrix\\$\varnothing$]
+	[{embedded\textcircled{H}}
+		[\tit{kó} (+Spec)]
+		[C$_{\tsc{rel}}$\\$\varnothing$ + Spec]
+		[C$_{\tsc{exh}}$\\ $\varnothing$ + Spec]
+		[C$_{\tsc{Q-wh}}$\\$\varnothing$ + Spec]
+	]
+]
+\end{forest}
+}
+\fex
+
+
+One consequence of the observed split between matrix C and embedded C heads is that all heads which have an \abar{}-position are not licit root clauses. In other words, movement to Spec,CP appears to be obligatorily selected. This requirement finds some support in the subject/non-subject asymmetry with \tit{wh-}in-situ (and focus-in-situ, to the extent that the IAV/sentence final position is a dedicated focus position). Consider the data in (\ref{ex:wh-asym-sbj}), which shows that subject \tit{wh-}questions are obligatorily clefted, unlike non-subject \tit{wh-}questions in (\ref{ex:wh-asym-obj}).
+
+\bex
+\ex \tbf{Subject \tit{wh}-question is obligatorily ex-situ} \label{ex:wh-asym-sbj} \bxl
+\ex[*]{\gll	Ndé a-a-som-yé igitabu mu gatôndo?\\
+		who \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} 7.book in 12.morning\\
+	\glt	Intended: `Who read the book this morning?'}
+\ex[]{\gll	Ni ndé a-a-som-yé igitabu mu gatôndo?\\
+		\tsc{ni} who \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} 7.book in 12.morning\\
+	\glt	`Who read the book this morning?'}
+\fxl
+\ex \tbf{Non-subject \tit{wh}-question is optionally ex-situ} \label{ex:wh-asym-obj}\bxl
+\ex[]{\gll	Yohaáni a-a-som-yé iki mu gatôndo?\\
+		Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} what  in 12.morning\\
+	\glt	`What did Yohani read this morning?'}
+\ex[]{\gll	Ni iki Yohaáni a-a-som-yé mu gatôndo?\\
+		\tsc{ni} what Yohani \tsc{1sm-rec.pst}-read.\tsc{emb}-\tsc{pfv} in 12.morning\\
+	\glt	`What did Yohani read this morning?'}
+\fxl
+\fex
+
+On the assumption that all \tit{wh}-questions have an operator in C that attracts wh-constituents, the above contrast is unexpected. However, \citet{ndayiragije-1999} among others proposes a low, VP-periphery to which VP-internal constituents may move. The in-situ strategy, under this view, is movement into a distinct low \abar{}-position. Adopting this proposal, the observed asymmetry, then, arises because subjects are too high to be licensed in this VP-periphery, and must instead be licensed in CP of the root clause. By hypothesis, the presence of this \abar{}-position hosting projection cannot be a licit root clause and therefore the cleft strategy is employed. 
+
+The result is that constituent questions of low, internal arguments may be formed by two means: movement into the low VP-periphery or movement into the high CP-periphery. The former is the ``in-situ'' strategy, whereas the latter is the ``ex-situ'' strategy and as a result of the particular complementizer system of Kirundi, requires embedding under further material, the most minimal of which is the non-verbal Pred \tit{ni}. Constituent questions of external arguments, however, are introduced too high for movement into the low VP-periphery, and is obligatorily moved to the CP-periphery. 
+
+While the above view is ultimately stipulated as a lexical property of the elements in the inventory of C-heads in Kirundi for the moment, it adequately unifies the obligatory presence of a selecting element in relative clauses, clefts, and complement clauses. Ultimately, we would like to substantiate this claim but I will leave this for future work. For now, consider the final structural hypothesis for Kirundi clefts repeated once more in (\ref{final-analysis}). 
+
+\bex
+\ex \tbf{Final analysis of Kirundi clefts} \label{final-analysis}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[PredP
+	[\tit{pro}]
+	[{}
+		[Pred\\\tit{ni}]
+		[CP
+			[XP\\``focus'', name=xp]
+			[{}
+				[C\\Exh]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\fex
+
+This analysis captures the \abar{}-properties of the fronted constituent, takes into account the exhaustiveness of the fronted constituent, and the obligatory embedding predicate which in Kirundi is a syntactically minimal clause. This view suggests that, in considering similar constructions across Bantu, we must disentangle our notion of clause-hood from the presence of a syntactically verbal element. Naturally, this analysis ultimately rests on the claim that non-verbal Pred is a grammatical matrix construction. In the following section, I show that the restricted distribution of \tit{ni} in non-verbal predication supports the generalization that inflectional structure is fully absent in contexts with \tit{ni}, substantiating this claim further. After this, I discuss alternative analyses, and then spell out precisely what I mean by claiming \tit{ni} to be a Pred head in \S\ref{sec:typology}, in light of a the typological predictions made by this account. 
+
+\section{Non-verbal predicates: Kirundi *[Infl Pred]} \label{sec:copula}
+
+
+%A large body of work has shown that cognate constructions with \tit{ni} in various Bantu languages are restricted, and that it alternates in complementary distribution with cognates of \tit{-ri}. It is explicitly assumed in past analyses that they are members of the same paradigm (edenmyr, jerro).
+
+The analysis presented above rests on the assumption that \tit{ni} is a non-verbal predicative element, Pred, and presupposes that PredP is a permitted matrix clause in Kirundi. In this penultimate section, I motivate this view from data on non-verbal predication, which I show empirically justifies this presupposition:  that \tit{ni} is restricted to syntactically non-verbal contexts and can be used as a grammatical matrix clause, and that the verbal \tit{-ri} derives a syntactically (defective) \tit{verbal} clause and thereby requires verbal inflectional material. In sum, the data in this section provides additional support for a matrix PredP in Kirundi, which obligatorily lacks verbal functional structure. 
+
+The main generalization is that \tit{ni} is, as in many Bantu languages, restricted to non-locational predication of third-person subjects in present tense. I account for this distribution entirely on the syntactic requirements of predication other than this restricted context. In other contexts, a verbal copula \tit{-ri} is used instead. While \citet{jerro-2013} provides an account based on a proposed semantic difference between copulas, I will argue that this reflects the syntactic/semantic properties of the predicate rather than those of the copula.  
+
+In other words, Kirundi has two ``copularizations'' strategies  for non-verbal predicates \citep{pustet-2003}, which is determined by both the predicate and downstream requirements that can only be fulfilled by verbal \tsc{infl}. When predication requires no \tsc{infl} structure, the non-verbal Pred \tit{ni} is used; when \tsc{infl} structure is required independently, the verbal copula \tit{-ri} is used to support it.
+
+More generally, the properties which determine the choice of copula across Bantu, as well as the number of copulas, varies considerably (see \citealt{gibson-et-al-2019,gluckman-2022}). For Kirundi, the basic claim is that the copula choice reflects a \tit{structural} difference rather than simply a lexical one and that this structural difference reflects independent syntactic requirements to bind an eventuality argument \citep{adger-ramchand-2003,welch-2012} and to licence nominal person features \citep{bejar-rezac-2003}. When neither of these requirements are present, the use of Pred \tit{ni} is licensed. The distribution of \tit{ni} is summarized below in the decision tree in (\ref{contexts}).
+
+\begin{samepage}
+\bex
+\ex \textbf{Contexts of use} \label{contexts}\\
+{\footnotesize
+\begin{forest}
+for tree = {fit = band}
+[{\textit{ni} or \textit{-ri}?}
+	[\textbf{Matrix clause}
+		[\textbf{Present Temporal Reference}
+			[\textbf{1/2\textsc{p.sbj}}\\\textit{-ri}]
+			[\textbf{3\textsc{p.sbj}} 
+				[\textbf{Locational}\\\textit{-ri}]
+				[\textbf{Non-locational}\\\textit{ni}, draw] { \draw (.east) node[right]{$\Leftarrow$ Ex. (\ref{type1})}; }
+			] { \draw (.east) node[right]{$\Leftarrow$ Ex. (\ref{sap})}; }
+		]
+		[\textbf{(Non-present) Tense}\\\textit{-ri}] { \draw (.east) node[right]{$\Leftarrow$ Ex. (\ref{tense})}; }
+	] 
+	[\textbf{Embedded clause}\\\textit{-ri} ] { \draw (.east) node[right]{$\Leftarrow$ Ex. (\ref{matrix})}; }
+]
+\end{forest}
+}
+\fex
+\end{samepage}
+
+The remainder of the section presents the data and develops the analysis for non-verbal predication, with a view to demonstrating that PredP is a licit root clause. %I also present data which suggests that PredP and small clause predication are in fact distinct: small clause predication has the additional requirement that the predicate vacate the small clause. 
+
+\subsection{Distribution of \tit{ni} in non-verbal predication}
+
+Non-verbal predication in Kirundi with \tit{ni}, as in many other Bantu languages \citep{gibson-et-al-2019}, is restricted to present-tense non-locational predicates with third-person subjects. The basic character of the generalizations to be drawn in this section is that \tit{ni} is banned from contexts where there are either interpretive and syntactic requirements needing to be met by \tsc{infl} further on in the derivation. Consider firstly, the tense restriction illustrated in (\ref{tense}).\footnote{More properly, and anticipating the discussion below, the \tit{ni} clauses might be better considered tense-less. The present temporal interpretation of these instead comes from the spatio-temporally undifferentiated character of predication without eventuality arguments.}
+
+\bex
+\ex \textbf{Overt tense requires \textit{-ri}} \label{tense}
+\bxl
+	\ex[]{
+		\gll	Umwígīsha \textbf{ni} Yohaani\\
+			1-teacher \textit{ni} John \\
+		\glt	`The teacher is John'
+		}		
+	\ex[]{
+		\glll 	Keerá, Yohaáni yá\textbf{ri} umwígīsha\\
+			keerá Yohaani a-á-\textbf{ri} umwígīsha \\
+			before John \textsc{3sg.sm}-\tsc{pst}-\tit{ri} 1.teacher \ \\
+		\glt	`John was a teacher, a while ago.'
+		}
+\fxl
+\fex
+
+Further, all non-third-person subjects are banned from predication with \tit{ni}, as can be seen in (\ref{sap}).
+
+\bex
+\ex \textbf{Speech Act Participant subjects require \textit{-ri}} \label{sap}
+\bxl
+\ex[]{
+		\gll	Yohaani \textbf{ni} umunyeshuúre\\
+			John \textit{ni} 1.student\\
+		\glt	`John is a student '
+		}	
+	\ex[]{
+		\gll	n-\textbf{ri} umunyeshuúre\\
+			\textsc{1sg.s}-\textit{ri} 1.student\\
+		\glt	`I am a student.'
+		}
+\fxl
+\fex
+
+These two restrictions, I claim, fall under the same generalization: predication with \tit{ni} is banned from contexts with \tsc{infl}, (\ref{ni-dist-gen}). The tense restriction, where T = \tsc{infl}, leads straightforwardly to this conclusion. Under the assumption that person-features are licensed by functional material (e.g., \citealt{bejar-rezac-2003}), the restriction of \tit{ni} from contexts with Speech Act Participant (SAP, i.e, first- and second-person) subjects also follows from a distributional restriction under T. 
+
+
+\bex
+\ex \tbf{Generalization on the distribution of \tit{ni}} \label{ni-dist-gen}\\
+{*}[T$_{\tsc{infl}}$ \tit{ni}]
+\fex
+
+Finally, embedded clauses must use \tit{-ri}. This can be seen in \ref{matrix}. To account for this, I assume that the complementizer is selectionally restricted to TP. 
+
+\bex
+\ex \textbf{Matrix vs. Embedded clauses} \label{matrix}
+\bxl
+	\ex[]{
+		\gll	{Umurwa mukuru} wa u-Bu-rúundi \textbf{ni} Gitega.\\
+			capital.city of 14.Rundi \textit{ni} Gitega\\
+		\glt	`The capital city of Burundi is Gitega.' \hfill (Matrix specificational)
+		}
+	\ex[*]{
+		\gll	N-a-vug-ye kó {umurwa mukuru} wa u-Bu-rúundi \textbf{ni} Gitega.\\
+			\tsc{1sg.sm-pst-}say-\tsc{pfv} \tsc{C} capital.city 3.of 14.Rundi \textit{ni} Gitega\\
+		\glt	`I said that the capital city of Burundi is Gitega.' \hfill(Embedded specificational)
+		}
+	\ex[]{
+		\gll	N-a-vug-ye kó {umurwa mukuru} wa u-Bu-rúundi \textbf{u-$\varnothing$-ri} Gitega.\\
+			\tsc{1sg.sm-pst-}say-\tsc{pfv} \tsc{C}  capital.city 3.of \tsc{aug}-14-rundi \tsc{3sm}-\tsc{pst}-\textit{ri} Gitega\\
+		\glt 	i. `I said that the capital city of Burundi is Gitega (the city).' \hfill (Embedded spec.)\\
+			ii. `I said that the capital city of Burundi is in Gitega (the province).' \hfill (Locational)
+		} 
+\fxl
+\fex
+
+In this way, the restriction to matrix, present-tense predication of third-person subjects can be tied together to the obligatory presence of T. Before turning to the final factor determining the distribution of \tit{ni}, I will spell out two possible choices for implementing this generalization. The first, taken by e.g. \citet{zentz-2016}, is to maintain that \tit{ni} is a copular verb (categorically a \tit{v}, see \citealt{mikkelsen-2005,mikkelsen-2011}) and stipulate the absence of TP as a lexical property of the \tit{ni}. While this is adequately able to capture the generalization in (\ref{ni-dist-gen}), it does so without leveraging the distinct properties of \tit{ni}, noted for Kirundi in early work by \citet[p. 180-6]{meeussen-1959}: the inability to convey temporal information.
+
+The second analytical option, which I will be adopting and arguing for here, is to analyze \tit{ni} and \tit{-ri} as categorically distinct heads: the former is a non-verbal predicator Pred and the latter is the verbal instantiation \tit{v} of predication in the absence of a lexical verb \citep{bowers-1993,bowers-2002,adger-ramchand-2003}.\footnote{One alternative way to maintain the syntactic-category distinction between the two heads, and perhaps closer to the proposals cited here, is to suggest that these two categories, Pred and \tit{v}, contextual allomorphs, where Pred=\tit{v} when it occurs with a VP complement, and Pred=Pred when it occurs with a non-VP complement. I will avoid for reasons that will become clear in the following section: locational PP complements also require verbal inflection. This would require additionally stipulating that PPs are somehow ``verbal enough'' to count as triggering the \tit{v} allomorph or to posit null verbal material.} When there is independent need to project verbal inflectional material in order to convey temporal information, to license person-features, or to be selected by a higher complementizer, Pred is ruled out. As Pred is categorically non-verbal, it does not permit the projection of further categories in the verbal extended projection \citep{grimshaw-2000}. In contrast, \tit{v}, which is spelled out as the verbal copula \tit{-ri} in the absence of a lexical verb, is unremarkable among verbs in Kirundi in requiring inflectional structure.\footnote{The lack of aspectual information can also be tied to the lack of lexical verb, by analyzing the aspectual suffix (the final suffix on the verb) as an instance of InnerAspect \citep{travis-2010}, also plausibly part of the verbal extended projection. The lack of aspectual contrast was also noted by \citet[p. 184]{meeussen-1959}: ``Le thème -ri, \textit{être}, n'a pas de finale, et ne présente donc pas la distinction d'aspect (imperfectif: perfectif)''} What \tit{does} have to be stipulated in this account is that the minimal amount of structure is used. I leave investigating this final point to the future. 
+
+Finally, consider the data below, which suggests that PredP is perhaps not the same thing as small clause predication, taking this latter term to mean non-verbal predication without additional morphosyntactic material. Non-verbal predication, as seen above, must occur with one of the two copular elements, \tit{ni} or \tit{-ri}. Similarly, in embedded contexts such as (\ref{embed-pred}), \tit{-ri} must be present, since \tit{ni} is independently ruled out.
+
+\bex
+\ex[]{\gll	N-i-baz-a kó Yohaáni *(a-ri) u-mwígīsha.\\
+		\tsc{1sg.sm-rflx}-ask-\tsc{ipfv} \tsc{comp} 1.Yohani \tsc{1sm-cop} \tsc{aug}-1.teacher\\
+	\glt	`I think that Yohani is a teacher.'} \label{embed-pred} %2023.02.21 
+\fex
+
+However, non-verbal predication without any additional morphosyntactic material is licit in fronting constructions discussed here. For example, consider the sentence in (\ref{ex:sc}). Crucially, compare the post-focal nominal predicate, which does not occur with the augment vowel, with the the post-predicative post-posed nominal, which obligatorily occurs with the augment vowel. A discussion of the role of the augment vowel would take us too far astray, but Kirundi nominals in argument position uniformly require augments. I take the former (\ref{ex:sc-ni}) to be small-clause predication, whereas the latter (\ref{ex:sc-ni-2}) contains a right-dislocated subject. 
+
+\bex
+\ex \tbf{Small clause predication} \label{ex:sc}
+\bxl
+\ex[]{\gll	Ni Yohaáni mwígīsha\\
+		\tsc{ni} 1.Yohani 1.teacher\\
+	\glt	`It's Yohani who the teacher is.' \hfill (Small Clause Predication)} \label{ex:sc-ni}
+\ex[]{\gll	Ni Yohaáni, u-mwígīsha\\
+		\tsc{ni} 1.Yohani \tsc{aug}-1.teacher\\
+	\glt	`It's Yohani who the teacher is.' \hfill (Right-dislocated subject)} \label{ex:sc-ni-2}
+\fxl
+\ex[]{\gll	Ni Yohaáni a-ri *(u)-mwígīsha\\
+		\tsc{ni} 1.Yohani \tsc{1sm-cop} \tsc{aug}-1.teacher\\
+	\glt	`It's Yohani who the teacher is.' \hfill (Copular clause in cleft)} \label{ex:sc-cop}
+\fex
+
+To the extent that this contrast is really indicative of small clause predication, which I leave motivating to future research, this initial data provides preliminary indication that PredP predication is not necessarily the same as small-clause predication in Kirundi. 
+
+
+\subsection{Non-verbal eventuality-denoting predicates}
+
+The final factor determining the distribution of \tit{ni} is whether the predicate is a locational PP. Locational predicates and embedded clauses require the verbal copula.\footnote{A similar distinction can be found in Scottish Gaelic where APs also pattern like PPs and VPs, \citealt{adger-ramchand-2003}}
+
+\bex
+\ex \textbf{Locational (PP) predicates} \label{type1}
+\bxl
+	\ex[]{
+		\gll	inká \textbf{i-ri} mu murima\\
+			9.cow \tsc{9sm}-\textit{ri} in 3.field\\
+		\glt	`The cow is in the field.'}
+	\ex[*]{
+		\gll 	inká \textbf{ni} mu murima\\
+			9.cow \textit{ni} in 3.field\\
+		\glt	Intended: `The cow is in the field.'}
+\fxl
+\fex
+
+I will argue here that this fact provides one final piece of empirical evidence that non-verbal Pred \tit{ni} lacks verbal inflectional structure. The analysis central to this argumentation recalls a similar set of facts from Scottish Gaelic, so I will first outline the analogous facts from \citet{adger-ramchand-2003}. The conclusion to be drawn from both sets of data are that certain predicates carry an inherent eventuality argument by virtue of their meaning: they denote spatio-temporality delimited eventualities.
+
+Scottish Gaelic has two relevant copular constructions, termed the Substantive Auxiliary Construction (SAC) and the Inverted Copular Construction (IAC) in \citet{adger-ramchand-2003}. The two constructions are analyzed as involving two distinct copular elements: SACs include a head Pred/\tit{v} which binds an eventuality variable introduced by the complement, and IACs are formed from a Pred head that does not.
+
+\bex
+\ex \tbf{Scottish Gaelic copular clauses}
+\bxl
+\ex[]{\gll	Tha Calum faiceallach/anns a'bhùth\\
+		be.\tsc{pres} Calum careful/in the.shop\\
+	\glt	`Calum is (being) careful/is in the shop.' \hfill (Substantive auxiliary construction)}
+\ex[]{\gll	Is mòr an duine sin\\	
+		\tsc{cop.pres} big that man\\
+	\glt	`That man is big.' \hfill (Inverted Copular Construction)}
+\fxl
+\fex
+
+\citet{adger-ramchand-2003} differentiate between the two properties by positing two distinct Pred/\tit{v} heads. Crucially, while these heads alternate and have distinct effects on the downstream derivation, they participate in fundamentally the same clausal structure as each other. So far in this section, I have argued for a more radical distinction between non-verbal predication mediated via Pred and verbal predication mediated via \tit{v}. The restrictions on the distribution of \tit{ni} seen in the previous subsections suggest a clausal structure lacking TP. Here, I will argue that the inability of predication with \tit{ni} to bind an eventuality argument shows a further distinction between the two predication strategies.
+
+Similar to Gaelic Inverted Auxiliary Constructions, Kirundi \tit{ni} predication cannot be used with PP predicates, as seen above in (\ref{type1}); unlike Gaelic IACs, Kirundi \tit{ni} predication can be used with adjectival predication. I take this last point to be language-specific differences in the syntax of adjectives, which are already quite a small, closed class in the Bantu languages. 
+
+\bex
+\ex \tbf{Gaelic IACs are banned with adjectival and PP predicates}
+\bxl
+\ex[*]{\gll	Is an {duine sin} mòr\\
+		\tsc{cop.pres} that man big\\
+	\glt	`That man is big.' \hfill (adjectival predicate)}
+\ex[*]{\gll	Is an cù leamsa\\
+		\tsc{cop.pres} that dog with-me\\
+	\glt	`That dog belongs to me.' \hfill (PP predicate)}
+\fxl
+\fex
+
+Given this similarity, I take Kirundi PPs to be a non-verbal category introducing an eventuality variable, noting their locational semantics. If Pred and \tit{v} do indeed differ in their ability to bind the eventuality argument in their complement domain as proposed by \citet{adger-ramchand-2003}, then the inability of  Pred to occur with PP predicates follows straightforwardly. 
+
+%Difference: Adger/Ramchand say that this is rather a property of the different \tit{v} heads, but the Kirundi data and argument so far suggests that the eventuality-argument-binding semantics is distributed across the types of copulas. Gaelic, on the other hand, uses verbal copulas in both cases (augmented copular clauses include a verb?); on further discussion about the division of labour between Pred and \tit{v} in Kirundi being attributed to a single syntactic kind in other languages, see \S\ref{sec:typology}
+
+%In sum the data from non-verbal predication shows us that the minimal clause in Kirundi is PredP, without additional verbal functional projections. To conclude this section, I will briefly discuss a proposal for the closely-related Kinyrwanda to capture the analogous complementary distribution of \tit{ni} and \tit{-ri} from \citet{jerro-2015}. \citeauthor{jerro-2015} suggests that the distinction between stage-level and individual- level predication is an adequate description of the semantic differences between \tit{ni} and \tit{-ri} predication,  but that this does not capture explain why such a distinction arises. He makes a distinct semantic proposal which relies on the notions of central relevance and coincidence, but this proposal cannot capture the non-embedability of \tit{ni} (though see gluckman for a possible solution). Note also that this eventuality-argument proposal can be used to derive stage-/individial-level predication quite straightforwardly (as already noted by \citealt{adger-ramchand-2003}; but see \citealt{maienborn-2005} for arguments against this from Spanish \tit{ser/estar}). 
+%\fit
+
+%\bit
+%\item NP/AP predicates do not require binding of an eventuality variable: they form predicates with \tit{ni}, except in cases with temporal information or person-licensing.\footnote{\citet{jerro-2015} notes that this is akin to the stage-level and individual-level predicate distinction, see also \citealt[p. 333, fn.3]{adger-ramchand-2003} for a similar observation.}
+%\item PPs and VPs require \tit{v} to bind the eventuality variable; \tit{v} in VP contexts is null, \tit{v} in PP (AP/NP) contexts is \tit{-ri}
+%\fit
+
+
+In the final analysis, I propose that the structural configuration in non-verbal predication is a highly reduced one. In the absence of independent need to include inflectional structure, Kirundi permits a matrix clause consisting only of a PredP. If inflectional structure \tit{is} required, \tit{ni} is ruled out since it is not syntactically compatible with \tsc{infl}.
+
+\begin{multicols}{2}
+\bex
+\ex \tbf{Non-verbal predication \\with non-verbal syntax}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[{\ldots}
+[({*}T)]
+[PredP
+	[subject]
+	[{}
+		[Pred\\\tit{ni}]
+		[{DP/AP\\{*}VP/{*}PP}]
+	]
+]
+]
+\end{forest}
+}
+\fex
+
+\bex
+\ex \tbf{(Non-verbal) predication \\with verbal syntax}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[TP
+[{*}(T)]
+[\tit{v}
+	[subject]
+	[{}
+		[\tit{v}\\\tit{-ri}]
+		[{DP/AP\\VP/PP}]
+	]
+]
+]
+\end{forest}
+}
+\fex
+\end{multicols}
+
+This section provides additional support for the claim that Kirundi has a clause type that consists solely of the predicational core, PredP. While there are several restrictions on this predicational strategy, these restrictions can be tied to independent properties of tense and person licensing, as well as the binding of syntactic eventuality variable. Having made my argument for the structure of the cleft clause in the previous section, and supporting this proposal with a discussion of an independent context for matrix PredPs in Kirundi, I will turn now to evaluating this against possible alternatives. 
+%
+%\bit
+%\item The subject and predicate are base-generated in their respective positions
+%\item Kirundi does not differentiate morphosyntactically between predicational, specificational, or equative constructions
+%\item Why can't we assimilate predication into left-peripheral picture? No evidence for movement from a lower predication structure as in Wolof \citep{klecha-martinovic-2015}. Instead, we follow Green's strategy. 
+%\item Main clause predication in Kirundi can be accomplished with non-verbal Pred, a strategy restricted to small clause predication in English \citep{bowers-2002}
+%\fit
+
+
+
+%% REPLACE THIS SECTION WITH THE ONE IN THE OTHER DOCUMENT
+\section{The non-uniform structures of clefts cross-linguistically} \label{sec:cleft-x-ling} 
+
+In this final section, I compare the proposal presented above with alternative analyses made for other languages, both within Bantu and more widely. I will consider two families of analyses: in \S\ref{sec:left-peripheral-ni}, I look at analyses where \tit{ni} is a left-peripheral head (as in \citealt{rizzi-1997}), concluding that it cannot be identified with either Foc, Top, nor a head intermediate to the two, despite various proposed solutions; in \S\ref{sec:verbal-copula-ni}, I consider the usual analyses for elements like \tit{ni}, where it is treated analogously to English \tit{be}, that is to say a \tit{verbal copula}, concluding that this analysis predicts a much broader distribution of \tit{ni} than we observe. 
+
+While I ultimately conclude that these analyses are not adequate for Kirundi, these alternative analyses do provide the basis for a set of typological observations that structures unified under the term ''cleft'' or which have been called ''cleft-like'' in their interpretation may in fact share some common structure. In line with these observations, which I present in \S\ref{sec:typology}, I propose that the structural configurations arising in Hungarian pre-verbal focus, the English cleft, and the Kirundi cleft share a common \abar{}-fronting strategy, but diverge in two ways: firstly, in the lexical specification of the C head hosting the \abar{}-fronted as either a matrix or obligatorily embedded clause, as discussed above in \S\ref{sec:matrix-c}; and secondly,  (in the latter case) the \tit{verbality} of the embedding material, as discussed above in \S\ref{sec:copula}. I end by explicitly outlining the typology arising from these two parameters. 
+
+\subsection{Non-cleft analyses of \abar{}-fronting: \tit{ni} as a left-peripheral head} \label{sec:left-peripheral-ni}\
+
+One widely-adopted analysis of focus fronting constructions with similar surface properties to the Kirundi data under discussion here is the left-peripheral analysis proposed by \citet{rizzi-1997}. Under this analysis, there are three logically possible candidates for the syntactic identity of \tit{ni}.\footnotemark{} I will argue that each either fails to capture the full range of empirical data or requires non-trivial theoretical mechanisms in order to do so. The primary empirical challenge I will address on here is word-order, the distribution of \tit{ni}, and the constituency with the following element.
+
+\footnotetext{I will ignore the possibility that \tit{ni} is a Force or a Fin head, as they predict incorrectly \tit{ni}-Topic and Focus-\tit{ni} as word orders.}
+
+\subsubsection{Kirundi \tit{ni} is not Foc}
+
+One influential analysis of phrasal fronting to a left-peripheral position is the FocusP analysis. This class of analyses typically takes the form of a Rizzian Left Periphery, wherein there is a dedicated and fixed position in the upper domain of the clause which hosts focused material (construed here as bearing a Focus feature, see \citealt{rizzi-1997}). In this subsection, I will discuss the data motivating this proposal in some depth, and show that the Kirundi data does not bear out some crucial predictions regarding the surface realization of the struture (as already noted in other Bantu languages). I will then discuss three approaches that propose solutions which would permit a FocP-analysis to be maintained: the Head Adjucntion/Undermerge solution \citep{fschwarz-2003,yuan-2017,yuan-2017gen}, the Q-particle solution (see \citealt{cable-2007,branan-erlewine-2022}), and the multiple-Focus-head solution \citep{abels-muriungi-2008}. Regarding the first two, I present a counterargument from the lack of evidence that the derived constituency between [\tit{ni} \tsc{focus}] holds in Kirundi. On the final solution, I argue that there is no evidence that Kirundi's \tit{ni} has the range of functions warranting the increased complexity of system with multiple Focus projections. I conclude here that the functions the \tit{ni} does have strongly suggests a non-left-peripheral analysis, as presented in above.
+
+The Rizzian  approach has garnered empirical support from its application to languages with overt material accompanying this movement, such as Gungbe where the particle accompanying fronting is analyzed as an overt lexicalization of the Focus head (\citealt{aboh-2016}). This is illustrated in (\ref{ex:gungbe}) with the post-focus-constituent particle \tit{wɛ̀}, glossed as \tsc{foc}.
+
+\bex
+\ex \tbf{Gungbe focus fronting \citep{aboh-2016}} \label{ex:gungbe}
+\bxl
+\ex[]{\gll 	mɛ́nù wɛ̀ ɖà lɛ́sì ná Àlúkú sɔ̀?\\
+		who \tsc{foc} cook rice to Aluku yesterday\\
+	\glt	`Who cooked rice for Aluku yesterday?'}
+\ex[]{\gll 	ɛ́tɛ́ wɛ̀ Súrù ɖà ná Àlúkú sɔ̀?\\
+		what \tsc{foc} Suru cook rice to Aluku yesterday\\
+	\glt	`What did Suru cooked rice for Aluku yesterday?'}
+\fxl
+\fex
+
+Languages like Gungbe instantiate what appears to be the ``ideal'' Left Periphery in terms of overtness and word-order: the XP-particle word order seen in (\ref{ex:gungbe}) permits a straightforward analysis as a Spec-head configuration. Other languages with similar structures include Wolof \citep{klecha-martinovic-2015,martinovic-2021move}, Hausa \citep{green-2007}, and the Bantu language Kinande \citep{schneider-zioga-2007}, illustrated in (\ref{ex:kinande}).
+
+\bex
+\ex \tbf{Kinande focus fronting \citep[p. 412]{schneider-zioga-2007}} \label{ex:kinande}
+\bxl
+\ex[]{\gll	ekitabu *(kyo) Kambale a-asoma\\
+		book$_j$ that$_{\textit{focus}-j}$ Kambale \tsc{agr}-read\\
+	\glt	`(It's) the book (that) Kambale read.'}
+\ex[]{\gll	Georgine yo Kambale a-alangira\\
+		Georgine$_j$ that$_{\textit{focus}-j}$ Kambale \tsc{agr}-saw\\
+	\glt	`(It's) the book (that) Kambale saw.'}
+\fxl
+\fex
+
+Kinande is a particularly interesting case in the present discussion, since it suggests a possible line of analysis where the particle \tit{ni} that we have been investigating is the copula which accompanies fronting. \citeauthor{schneider-zioga-2007} shows that the above focus fronted examples are not clefts, which are morphosyntactically distinct in two ways: firstly, clefts include the copula \tit{ni} (analogous to Kirundi) and also require an augmented agreeing word glossed as \tit{that} in (\ref{ex:kinande}). 
+
+\bex
+\ex \tbf{Kinande clefts are morphosyntactically distinct \citep[p. 420]{schneider-zioga-2007} }
+\bxl
+\ex[]{\gll	ni-ki ekyo Kambale a-agula\\
+		be-what that Kambale \tsc{agr}-bought\\
+	\glt	`What is it that Kambale bought?' \hfill (Kinande cleft)} \label{ex:kinande-cleft}
+\ex[]{\gll	ekitabu ekyo Kamable a-agula\\
+		book that Kambale \tsc{agr}-bought\\
+		`the book that Kambale bought' \hfill (Kinande relative clause)} \label{ex:kinande-rc}
+\fxl
+\fex
+
+The cleft structure in Kinande seen here is similar on the surface to the Kirundi data presented above. There are crucial differences, however, between Kinande and Kirundi. Most strikingly Kirundi lacks the evidence that unifies clefts and relative clauses (the similarity between (\ref{ex:kinande-cleft}) and (\ref{ex:kinande-rc})), as well as the evidence that differentiates between focus-fronting and cleft constructions (the dissimilarity between (\ref{ex:kinande}) and (\ref{ex:kinande-cleft})). In other words, it appears that what looks like two distinct possible structures in Kinande is realized in a single configuration in Kirundi. One may speculate whether the differences here may be tied to the different paths of grammaticalization taken from similar material; I will not pursue this here. Nonetheless, the Kinande data shows us that the FocP account can adequately capture instances of non-cleft focus-fronting in Bantu languages which have it. Kirundi, I have argued, does not. 
+
+More to our point, the differences between Kinande and Kirundi show that across Bantu, there is substantial variation with respect to how focus is mapped onto the syntax: variation in the inclusion of a dedicated focus structure, and whether the accompanying (focus) particle precedes or follows the fronted phrase. On this last point of variation, the former configuration is unproblematic for the FocP analysis, but the latter poses linearization issues. For example, consider the Kikuyu data in (\ref{ex:kik}), where the focus marker (\tsc{fm}) \tit{ne} precedes fronted \tit{wh}-words or foci, analogously to Kirundi. 
+
+\bex
+\ex \tbf{Kikuyu focus fronting \citep[p.54]{fschwarz-2003}} \label{ex:kik}
+\bxl
+\ex[]{\gll	ne ma-e Abdul a-ra-nyu-ir-ɛ\\
+		\tsc{fm} 6-water A \tsc{sm-t-}drink-\tsc{asp-fv}\\
+	\glt	`It is water that Abdul drank.'} \label{ex:kikuyu-foc}
+\ex[]{\gll	ne-kee Abdul a-ra-nyu-ir-ɛ\\
+		\tsc{fm}-what A \tsc{sm-t-}drink-\tsc{asp-fv}\\
+	\glt	`What did Abdul drink?'} 
+\fxl
+\fex
+
+
+For analyses committed to the FocP analysis, where \tit{ni} is analyzed as the Focus head, despite the linearization issues which arise, two solutions have been proposed to properly linearize the fronted phrase and the focus marker. The first solution proposed by \citet[p. 86]{fschwarz-2003} for the Bantu language Kikuyu is to adjoin the fronted phrase to the Foc head. As already noted by \citeauthor{fschwarz-2003}, this proposal is attractive insofar as ``it can be fitted into a framework where this really adds to the explanatory adequacy of the account, and does not just `get the word order right''' (p. 86). This analysis is presented below in (\ref{struc:kikuyu}). I will discuss two means to generate this configuration: Undermerge and Pied-piping of a low FP.
+
+
+\bex
+\ex \tbf{Structure for (\ref{ex:kikuyu-foc}), following \citet[p. 86]{fschwarz-2003}}\label{struc:kikuyu}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[FP
+ 	[F [\tit{ne}] [NP$_2$ [\tit{[ma-e]}$_{\tsc{F}}$\\water]]]
+	[IP
+		[NP [Abdul]]
+		[{}
+			[I [\tit{a-ra-nyu-ir-ɛ}$_{1}$\\drink]]
+			[VP
+				[V [\tit{t}$_{1}$]]
+				[\tit{t}$_{2}$]
+			]
+		]
+	]
+]
+\end{forest}
+}
+\fex
+
+The difficulty with adopting this account here rests in motivating this phrasal head-adjunction more broadly. There is not much discussion in \citet{fschwarz-2003}, and this proposed account may be troubling for a theory wherein the Extension condition is active. This point is explicitly taken up and the analysis is defended against such trouble in \citet{yuan-2017,yuan-2017gen}, where an implementation of this is developed and discussed within the context of Undermerge. In addition, \citeauthor{yuan-2017gen} notes that this movement is motivated as the overt instantiation of Focus association by covert movement \citep{wagner-2006,erlewine-kotek-2018}. However, note that the resulting structural configuration still predicts constituency between \tit{ni} and the post-\tit{ni} XP. As we have seen above, this constituency is not motivated for Kirundi. Under the unified hypothesis above, where I argued that  the copular and the focus use of \tit{ni} are instances of the same Pred structure, there are selectional restrictions on \tit{ni} which fail to arise in focus constructions. Recall that in Kirundi, prepositional phrases cannot form predicates with \tit{ni}, as seen in (\ref{ex:ni-cop-pp}). However, PP foci are fully grammatical, seen in (\ref{ex:ni-foc-pp}). Under the constituency proposed above, this contrast remains unexplained. 
+
+\bex
+\ex\bxl
+\ex[]{\gll 	i-n-ká \textbf{*ni/i-ri} mu mu-rima.\\
+		\tsc{aug}-9-cow \tsc{ni}/\tsc{9sm}-\textit{ri} in 3-field\\
+		\glt	`The cow is in the field.'} \label{ex:ni-cop-pp}
+\ex[]{	\gll	Ni \tbf{kw' isoko} n-a-gīye \gap{} [kubēra n-kenér-ye umukâté].\\
+		\tsc{ni} to.store \tsc{1sg.sm-pst-}walk\tsc{.pfv} {} because \tsc{1sm-}need-\tsc{pfv} bread\\
+	\glt	`It's to the store I went because I need bread.'} \label{ex:ni-foc-pp} % TO TEST ni mu murima inka ari?, ari inka?
+\fxl
+\fex
+
+These restrictions in the copular cases were tied to the requirement that verbal functional material be present; under the Undermerge approach, it is unclear why these restrictions on the complement to \tit{ni} are relaxed, unless we abandon the unifying hypothesis and concede that the two functions of \tit{ni} are in fact unrelated.
+
+A plausible alternative means of deriving a similar structural configuration as (\ref{struc:kikuyu}) without positing this movement is to analyze \tit{ni/ne} as being generated above the fronted (nominal) phrase itself and that this phrase triggers fronting to a (null) focus phrase (see \citealt{cable-2007,cable-2010,branan-erlewine-2022} for particle-based approaches to pied-piping; \citealt{yuan-2017,yuan-2017gen} for an extension to Kikuyu). While I argue that this view is ultimately not motivated for Kirundi, one language where this may be the case is the Grassfields Bantu language Medumba \citep{keupdjio-2020}. %Q-movement, see cable
+
+\bex
+\ex \tbf{Medumba focus particle \citep[p. 17-18]{keupdjio-2020}}
+\bxl
+\ex[]{\gll	Wàtɛ́t nɔ́ʔ s\textsuperscript{w}ɛ̀n [á Nù\textsuperscript{ŋ}gɛ̀]\\
+		Watat \tsc{aux.t2} sell \tsc{foc} Nuga\\
+	\glt	`Watat betrayed Nuga$_{\tsc{foc}}$.'}
+\ex[]{\gll	[á Nù\textsuperscript{ŋ}gɛ̀] Wàtɛ́t nɔ́ɔ̀ʔ \textsuperscript{n}-s\textsuperscript{w}ɛ́ɛ̀n lá\\
+		\tsc{foc} Nuga Watat \tsc{agr.aux.t2} \tsc{n}-\tsc{agr.}sell C.-Q \\
+	\glt	`Nuga$_{\tsc{foc}}$ Watat betrayed.'}
+\fxl
+\fex
+
+Note that the focus particle \tit{á} appears when the focus is in-situ as well as when in is fronted. Taking the Medumba data to instantiate evidence for particle-based pied-piping, we can note some of the analytical presuppositions that such an account carries with it. While potentially unproblematic to the constellation of facts in Medumba, such a view is ultimately untenable for Kirundi.
+%which the alternative means to generate a structure such as (\ref{struc:kikuyu}) without movement requires
+
+The main challenge faced when adopting either the head-adjunction view or the particle-based pied-piping view for Kirundi (and indeed for Kikuyu) is that there is no independent motivation for the constituency between the \tit{ni} and the immediately following phrase as seen in (\ref{ex:ni-cop-pp}). Furthermore, while neither Kirundi nor Kikuyu maintain the particle for in-situ foci, Medumba does, further suggesting a base-generated constituency of the particle and the following nominal in Medumba, but not in Kirundi.\footnote{A further question is raised for Medumba, specifically on why the particle does not trigger movement uniformly. See \citealt{keupdjio-2020} for a comprehensive discussion and analysis.}
+
+\bex
+\ex[*]{\gll	Yohaáni \tbf{a-a-som-ye} [ni igitabu]\\
+		Yohani \tsc{1sm-pst-}read-\tsc{pfv} \tsc{ni} 7.book\\
+	\glt 	Intended: `Yohani read \tsc{a book}.' \hfill (Kirundi)}
+\fex
+
+In sum, maintaining a view where the single focus projection hosts the fronted phrase in its specifier leads to the inability to capture the correct word order without admitting one of two additional mechanisms: phrasal-adjunction to the focus head, or generating the Foc-particle directly above the phrase to be fronted, neither of which is descriptively adequate for the Kirundi data.
+
+A second solution to the challenge faced by a commitment to the left-peripheral approach is given by \citet{abels-muriungi-2008} for the Kîîtharaka (Bantu). This solution makes use of an articulated focus structure within the left-periphery, containing thee focus projections. In addition to this added complexity within the high functional sequence, this analytical move requires a spell-out algorithm which determines which head the single exponent is spelled out in. In Kîîtharaka, the focus marker shows up in three distinct contexts: in pre-predicative position for predicate focus (\ref{ex:tha-pre-pred}), pre-nominal position for fronted foci (\ref{ex:tha-pre-nom}), and finally in contexts of successive-cyclic movement (\ref{ex:tha-suc-cyc}).
+
+\bex
+\ex \tbf{Kîîtharaka focus marker \cite[p. 690, 716]{abels-muriungi-2008}}\bxl
+\ex[]{\gll 	Maria n-a-gûr-ir-e î-buku\\
+		1.Maria \tsc{foc-1.sm-}buy-\tsc{pfv-fv} 5-book\\
+	\glt	`Maria bought a book.'} \label{ex:tha-pre-pred}
+\ex[]{\gll	I-mbi$_1$ John (*n)-a-ug-ir-e [Pat *(n)-a-ug-ir-e [Maria *(n)-a-gûr-ir-e \gap{}$_1$]]\\
+		\tsc{foc}-what 1.John \tsc{foc-1sm}-say-\tsc{perf-fv} 1.Pat \tsc{foc-1sm}-say-\tsc{perf-fv} 1.Maria \tsc{foc-1sm-}buy-\tsc{perf-fv}\\
+	\glt	`What did John say Pat said Maria bought?'} \label{ex:tha-suc-cyc}
+\ex[]{\gll 	N-Aana a-gûr-ir-e î-buku\\
+		\tsc{foc-}1.Ana \tsc{1.sm-}buy-\tsc{pfv-fv} 5-book\\
+	\glt	`Maria bought a book.'} \label{ex:tha-pre-nom}
+\fxl
+\fex
+
+Their analysis of these posits a cline of Foc heads, where pre-predicative focus marking contains a single Foc head, successive-cyclic marking structures have two, and pre-nominal focus marking has all three. A positioning algorithm, which crucially requires reference to the ``strength'' of the heads, marked with diacritics S or W in (\ref{struc:tha}), is used to restricted the spell-out of \tit{n-/i-} to either the lowest or highest Foc heads. In other words, in a sequence containing only Foc2 and Foc3, Foc3 is spelled out and Foc2 is null; in a sequence containing all three, Foc1 is spelled out due to its strength.
+
+\bex
+\ex \tbf{Three-headed Approach \citep[p. 721]{abels-muriungi-2008}} \label{struc:tha}\\
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[Foc$_1$P 
+	[Foc$_1^S$]
+	[Foc$_2$P 
+		[Spec]
+		[{}
+			[Foc$_2^W$]
+			[Foc$_3$P
+				[Spec]
+				[{}
+					[Foc$_3^W$]
+					[\ldots]
+				]
+			]	
+		]
+	]	
+]
+\end{forest}
+}
+\fex
+
+While the three heads line-up with the three contexts where \tsc{foc} is used (pre-nominal focus, pre-predicate focus, and successive cyclic movement), this one-to-one mapping comes at the expense of substantially increasing the complexity of the left-periphery. It is unclear how such an account will transfer onto languages like Kirundi, where the language has a much more distributionally restricted particle, and furthermore the consequences for such a proliferation of Focus heads has for the cross-linguistic picture more broadly. 
+
+Having ruled out the proposed solutions for \tit{ni} being a Focus head, I will turn to two other approaches that maintains a left-peripheral syntax for \tit{ni}, but proposes identification with another head.
+
+
+\subsubsection{Kirundi \tit{ni} is not Top}
+
+A plausible alternative structure which trivially derives the correct surface word-order is to assume that \tit{ni} is a Top head, selecting the FocP which hosts the \abar{}-fronted constituent. As Kirundi does not have any overt segmental material co-occuring with this movement, the Foc head is phonologically null.\footnote{Languages that do include overt phonological material were cited above, such as Gungbe and Kinande.} The hypothetical structure is given in (\ref{ni-top0-struc}). While this structure trivially derives the word-order seen in Kirundi, I will go through two arguments against this view briefly here.
+
+\bex
+\ex \label{ni-top0-struc}
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[TopP
+	[\tsc{topic}]
+	[{}
+		[Top\\\tit{ni}]
+		[FocP
+			[\tsc{Focus}$_1$]
+			[{}
+				[Foc\\$\varnothing$]
+				[TP [\ldots{} \tit{t}$_1$ \ldots, roof]]
+			]
+		]
+	]
+]
+\end{forest}
+}
+\fex
+
+The structure in (\ref{ni-top0-struc}) incorrectly predicts two facts about the distribution of \tit{ni}: firstly, it predicts that Topics obligatorily co-occur with \tit{ni}. In fact, the opposite is true: Topics never occur with \tit{ni}, unless there is also an element in the post-\tit{ni} position. The example in (\ref{predict-top1b}) is ungrammatical under the parse that \tit{ni} and Yohani is not \abar{}-fronted. Compare this with (\ref{predict-top1c}), which shows that the identical string is grammatical, however, when the post-verbal position of \tit{ni} is filled with the \abar{}-fronted subject. The position may also be filled with a pronoun co-referential with the topic, as seen in (\ref{predict-top1d}).
+
+
+\bex
+\ex \tbf{Topic and \tit{ni} do not obligatorily co-occur} \label{predict-top1}
+\bxl
+\ex[]{\gll	Ico gitabu, Yohaáni a-a-*(gi)-som-ye\\
+		\tsc{7dem} 7.book Yohani \tsc{1sm-pst-7om-}read-\tsc{pfv}\\
+	\glt	`This book, Yohani read it.}  \label{predict-top1a}
+\ex[*]{\gll	Ico gitabu ni, [ Yohaáni a-a-gi-som-ye]\\
+		\tsc{7dem} 7.book \tsc{ni} {} Yohani \tsc{1sm-pst-7om-}read-\tsc{pfv}\\
+	\glt	Intended: `This book, Yohani read it.}  \label{predict-top1b}
+\fxl
+\ex \tbf{\tit{ni} must be followed by ``focused'' constituent}
+\bxl
+\ex[]{\gll	Ico gitabu [ ni Yohaáni$_1$ [\tit{t}$_1$ a-a-gi-som-ye]]\\
+		\tsc{7dem} 7.book {} \tsc{ni} Yohani {} \tsc{1sm-pst-7om-}read-\tsc{pfv}\\
+	\glt	`This book, it's Yohani who read it.}  \label{predict-top1c}
+\ex[]{\gll	Ico gitabu$_1$ [ ni co$_1$ [Yohaáni a-a-gi-som-ye]] \\
+		\tsc{7dem}  7.book {} \tsc{ni} 7.\tsc{pron} Yohani \tsc{1sm-pst-7om-}read-\tsc{pfv}\\
+	\glt	`This book, it's that which Yohani read it.}  \label{predict-top1d}
+\fxl
+\fex
+
+Secondly, there is no immediate way to capture the obligatory co-occurence of \tit{ni} with fronted constituents (to Spec,FocP). The sole way to ensure the obligatory surfacing of \tit{ni} with fronted constituents is to stipulate the requirement that TopP is projected whenever FocP is, even when the specifier of TopP is phonologically and possibly syntactically empty. I will take these two challenges and the stipulations required to surmount them, to be indicative of such an accounts inadequacy for Kirundi. 
+
+
+\subsubsection{Kirundi \tit{ni} is not an intermediate left-peripheral head}
+
+One final option is to assume that \tit{ni} is a head intermediate to the Foc and Top heads. While I will remain agnostic on the function this putative head may have, see \citet{wasike-2007} for the view that this left-peripheral head has a predicative function \tit{within} the left-periphery.\footnote{While I ultimately propose a similar analysis, where \tit{ni} is identified with Pred, the crucial difference is the syntax of this head. \citet{wasike-2007} places it squarely in the left-periphery, thus deriving a mono-clausal structure, whereas my use of the label Pred is analogous to \tit{v}, which thereby delimits the boundary of the lower clause without requiring the root clause to be syntactically headed by a verb.} This alternative structure is illustrated in (\ref{struc-inter}), where \tit{ni} is simply a head intervening between Top and Foc. 
+
+\bex
+\ex \label{struc-inter}
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[TopP
+	[\tsc{topic}]
+	[{}
+		[Top]
+		[\tit{ni}P
+			[\tit{ni}]
+		[FocP
+			[\tsc{Focus}$_1$]
+			[{}
+				[Foc\\$\varnothing$]
+				[TP [\ldots{} \tit{t}$_1$ \ldots, roof]]
+			]
+		]
+		]
+	]
+]
+\end{forest}
+}
+\fex
+
+This account faces two challenges. Firstly, as in the previous Topic head analysis, there is no immediate way to capture the obligatory co-occurence of \tit{ni} with fronted constituents. While the account proposed above ties the obligatory \tit{ni} to the fact that the CP hosting the fronted constituent is obligatorily embedded, the account of \tit{ni} as an independent head in the left-periphery requires independent motivation; I do not see a clear, motivated way to tie the projection of FocP to the obligatory projection of a distinct head.
+
+Secondly, there is no straightforward way to capture the observation that embedded clefts are structurally more complex. Consider the data in (\ref{emb-cleft}--\ref{emb-cleft-1p}), where a cleft is embedded under a matrix verb. In such a case, \tit{ni} is not permitted, and instead the cleft is formed with the copular verb \tit{-ri}. As a result, a tense contrast is possible in this context, as expected from the discussion of non-verbal predication in \S{non-v-pred-sec} above. Furthermore, since the copula agrees with the $\varphi$-features of its subject, we can verify in (\ref{emb-cleft-1pb}) that the fronted constituent is not the subject: the copula has class 1 agreement rather than first-person-singular agreement.
+
+\bex
+\ex \tbf{Embedded clefts use the copula  \tit{-ri}} \label{emb-cleft}\bxl
+\ex[]{\gll	Yohaáni a-a-vug-ye [kó a-ri Kagabo a-a-som-yé igitabu]\\
+		Yohani \tsc{1sm.pst-}say-\tsc{pfv} \tsc{comp} \tsc{1sm-cop} Kagabo \tsc{1sm.pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that Kagabo read the book.'} \label{emb-clefta}
+\ex[]{\gll	\ldots kó a-a-ri Kagabo a-a-som-yé igitabu\\
+		\ldots \tsc{comp} \tsc{1sm-pst-cop} Kagabo \tsc{1sm-pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that Kagabo had read the book.'} \label{emb-cleftb}
+\fxl
+\ex \tbf{Embedded clefts do not agree with post-copular constituent}\label{emb-cleft-1p}\bxl
+\ex[]{\gll	\ldots kó a-ri jēwé n-a-som-yé igitabu\\
+		\ldots \tsc{comp} \tsc{1sm-cop} \tsc{1sg.pron} \tsc{1sg.sm-pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that I read the book.'} \label{emb-cleft-1pa}
+\ex[*]{\gll	\ldots kó n-a-ri jēwé n-a-som-yé igitabu\\
+		 \ldots \tsc{comp} \tsc{1sg.sm-cop} \tsc{1sg.pron.str} \tsc{1sg.sm-pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that I read the book.'} \label{emb-cleft-1pb}
+\fxl
+\fex
+
+Note the word order for these is strict. When the fronted constituent appears before the copula and in (\ref{cleft-order-1}), the requirement to have a filled post-copular position holds, as in matrix clauses: it must be filled by ``focused'' material. Once more, the agreement on the copula demonstrates that the pre-copular constituent is not the subject: that is, in (\ref{cleft-order-1b}).
+
+\bex
+\ex \tbf{Embedded clefts have an expletive subject} \label{cleft-order-1}\bxl
+\ex[]{\gll	\ldots kó Kagabo a-ri *(we) a-a-som-yé igitabu\\
+		\ldots \tsc{comp} Kagabo \tsc{1sm-cop} \tsc{1.pron} \tsc{1sm.pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that, Yohani, he read the book.'} \label{cleft-order-1a}
+\ex[]{\gll	\ldots kó jēwé a-ri  *(je) n-a-som-yé igitabu\\
+		\ldots \tsc{comp} \tsc{1sg.pron.str} \tsc{1sm-cop} \tsc{1sg.pron} \tsc{1sg.sm.pst-}say.\tsc{emb}-\tsc{pfv} 7.book\\
+	\glt	`Yohani said that, me, I read the book.'} \label{cleft-order-1b}
+\fxl
+\fex
+
+To capture such data, the left-peripheral analysis must propose that the alternation between \tit{ni} and \tit{-ri} is in fact an alternation in the upper portion of the left-periphery. 
+
+\begin{multicols}{2}
+\bex
+\ex \label{struc-lp-ni}
+\bxl
+\ex
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[TopP
+	[\tsc{topic}]
+	[{}
+		[Top]
+		[\tit{ni}P
+			[\tit{ni}]
+		[FocP
+			[\tsc{Focus}$_1$]
+			[{}
+				[Foc\\$\varnothing$]
+				[TP [\ldots{} \tit{t}$_1$ \ldots, roof]]
+			]
+		]
+		]
+	]
+]
+\end{forest}
+}
+\ex \label{struc-lp-ri}
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[\ldots
+	[\tsc{topic}]
+	[{\ldots}
+		[T]
+		[\tit{v}P
+			[\tsc{expl}]
+			[{}
+			[\tit{-ri}]
+		[FocP
+			[\tsc{Focus}$_1$]
+			[{}
+				[Foc\\$\varnothing$]
+				[TP [\ldots{} \tit{t}$_1$ \ldots, roof]]
+			]
+		]
+		]
+		]
+	]
+]
+\end{forest}
+}
+\fxl
+\fex
+\end{multicols}
+
+The one substantial difference between the two structures is that the left-periphery of the sole clause in structures with \tit{ni} (\ref{struc-lp-ni}) is smaller than the left-periphery of the lower clause of the structure with \tit{-ri} (\ref{struc-lp-ri}). It is unclear to me at this moment whether this makes crucially different empirical predictions when compared to the cleft analysis I have proposed. On the basis of the similarity between the functions of \tit{ni} and \tit{-ri}, however, I believe the uniform cleft-structure I have proposed can capture both the alternation in embedded clauses as well as the same alternation in non-verbal sentences in a more natural way, by tying it to the verb-hood of the copula and the non-verb-hood of \tit{ni} as revealed through their distribution across the two constructions.  
+
+\subsubsection{Verbal-copula analysis}
+
+I would now like to consider a family of analyses which are substantially similar to the one argued for above, but which differ in one crucial way: the syntactic nature of the copula. These approaches take the copular use of the particle to be demonstrative of their syntactic role as a verbal element in non-verbal predication. I show here that the implicit assumption that the bi-clausality (which goes hand-in-hand with what I have been calling the cleft analysis) entails bi-verbal is not a necessary one. I show that analyses which make this assumption for Bantu are faced with the need to stipulate some of the structural requirements of the cleft particle. I will once again consider two analyses within this general approach. In the first, the particle directly instantiates some verbal category, typically \tit{v}. In the second, the particle accompanies a null copula. While both these analyses have the benefit of unifying non-verbal predication and cleft structures, they require additional stipulations to the latter which I argue are avoided under the proposal advocated for in the previous section.
+
+%1. ni as cop
+
+Turning to the first analysis, we can consider the particle is an instantiation of \tit{v}, which selects for a CP (among other constituents in non-verbal predication). The main downside to this analysis is that it requires a stipulation that a single element, \tit{ni}, which is structurally a verb and which is inflectionally and distributionally restricted. The structure in (\ref{struc:shona}) is a proposal along these lines for Shona wh-clefts by \citet{zentz-2016}.
+
+\bex
+\ex \tbf{\tit{ni} as a \tit{v}P copular clause (after \citealt{zentz-2016})} \label{struc:shona}\\ 
+{\footnotesize
+\begin{forest}
+for tree = {fairly nice empty nodes}
+[CP
+	[C\\{[Q]}]
+	[\tit{v}P
+		[\tit{v}\\\tsc{ni}]
+		[DP
+			[D]
+			[ForceP
+				[DP [wh-phrase, roof]]
+				[{}
+					[Force\\{[rel]}]
+					[\ldots]
+				]
+			]
+		]
+	]
+]
+\end{forest}
+}
+\fex
+
+
+This analysis is similar to the intuition that leads to familiar analyses of English clefts: a copular verb is used in clefts because it is semantically bleached. However, the nature of the copula in Kirundi and English differ substantially, in a way that is often noted and just as often disregarded. While the English copula is clearly verbal, sharing a subset of the distribution and inflectional possibilities of other lexical verbs in English, the Kirundi \tit{ni} is non-verbal. Not only does \tit{ni} obligatorily lack inflection, it has a distribution wholly unlike verbs in Kirundi. This asymmetry between \tit{ni} and verbs is not captured in this analysis; neither is the highly restricted distribution of \tit{ni}. On the other hand, to capture the lack of inflection with \tit{ni}, \citet[199]{zentz-2016} proposes a reduced structure which is stipulated to lack \tsc{infl}. In inflectional contexts, the difference in form is captured by contextual allomorphy rather than as inflection \citep[p. 160]{zentz-2016}.
+
+%2. ni accompanies null cop
+%abels-muriungi-201x in a footnote
+%gibson-et-al-2019 in the final section
+
+The second analysis can be seen as an extension of the FocP analysis to non-verbal predication. In these analyses, \tit{ni} obligatorily accompanies a separate, null particle. While I will not discuss these analyses in detail, it is worth noting that several proposals have been forwarded which take this general shape though often without a full discussion. One proposal is forwarded by \citet[p. 690fn]{abels-muriungi-2008} in the context of extending their multiple FocP analysis to non-verbal predication. In cleft-analyses, the \tit{ni} might be analyzed as the instantiation of functional material in the absence of an overt lexical verb (as in bergvall 1987, cit. in schwarz-2003, p. 70f). For similar null-copula analyses, see \citet{gibson-et-al-2019}, who discuss this in the context of cross-Bantu variation in copular (non-verbal predication) constructions.
+
+To end this subsection, I will note that the challenges posed in this section for the verbal copula analysis are primarily ones that interrogate the implicit assumption that copulas are uniformly verbal. Even if not framed precisely in those terms, this implicit assumption is often borne out in the lack of clear correspondence between the claim that the Bantu copula is non-verbal and the structural representation it is given. Indeed, the structure given in (\ref{struc:shona}) is unclear insofar as it represents (what I argue to be) a syntactically non-verbal element within a (defectively) verbal structural configuration. This lack of clarity, I suggest, obscures the phrase-structural implications of the insight that \tit{ni} is a unique element in the grammar, which researchers have long noted about it in its various instantiations across the Bantu languages. The next subsection is dedicated to spelling out some of these implications.
+
+\subsection{Towards a more fine-grained structural typology: non-verbal clefts, verbal clefts, and non-clefts} \label{sec:typology}
+
+The central claim made above regarding the lack of verbal material in the matrix clause makes a clear typological prediction with respect to the possible structures we might find in cleft constructions. Here, I will outline briefly the general characteristics of this structural typology, and tie this back to variation in what is sufficient to count as a clause in the language. This variation, I suggest, is ultimately related to a distinction made by \citet{pustet-2003} between verbal copulas and (non-verbal) particle copulas, a distinction not taken-up in the generative literature as far as I am aware. As we saw in \S\ref{sec:copula}, the two strategies co-exist in Kirundi and are in complementary distribution
+
+In languages such as English, the only available copula for main clause predication is a verbal copula \tit{be} (though see \citealt{den-dikken-2006} on \tit{as} and \tit{of} as similar elements in the nominal domain). In contrast to the English-type system, a wide literature has grown regarding multi-copular systems. A particularly well discussed example is the Spanish distinction between \tit{ser} and \tit{estar}; another is the Na-Dené language Tłı̨chǫ Yatıì (\citealt{welch-2012} describes this in therms of eventiveness; see also \citealt{adger-ramchand-2003} on Scottish Gaelic; see \citealt{gibson-et-al-2019} for an overview). 
+
+\bex
+\ex \tbf{Spanish multiple copulas are both verbal (\citealt{maienborn-2005}, among others)}
+\bxl
+\ex[]{\gll	 Maria \tbf{es} rubia\\
+		Maria is$_{\tit{ser}}$ blond\\
+	\glt	`Maria is blond.'}
+\ex[]{\gll	 Maria \tbf{está} rubia\\
+		Maria is$_{\tit{estar}}$ cansada\\
+	\glt	`Maria is blond.'}
+\fxl
+\ex \tbf{Tłı̨chǫ Yatıì multiple copulas are both verbal \citep[p. 6]{welch-2012}}
+\bxl
+\ex[]{\glll	Ekw\`ǫ \tbf{elı̨}.\\
+		Ekw\`ǫ \tbf{$\varnothing$-lı̨}\\
+		caribou \tsc{impf.3sbj-cop1}\\
+	\glt	`S/he/it is a caribou.' (e.g., a role in a play) \hfill (eventive predicate)}
+\ex[]{\glll	Ekw\`ǫ \tbf{hǫt'e}.\\
+		Ekw\`ǫ \tbf{ha-l}-t'e\\
+		caribou \tsc{thm-impf.3sbj-cop2}\\
+	\glt	`S/he/it is a caribou.' (in a characterizing sense) \hfill (non-eventive predicate)}
+\fxl
+\fex
+
+To my knowledge, this literature on multicopular systems is generally limited to languages which have multiple verbal copulas. In other words, these are languages with multiple copulas falling within the same ``copularization'' strategy (to use terminology from \citealt{pustet-2003}). My claim in \S\ref{sec:copula} was that the two copulas \tit{ni} and \tit{-ri} are structurally distinct: \tit{-ri} instantiates a verbal head \tit{v} whereas \tit{ni} instantiates a non-verbal Pred. In other words, the two strategies (verbal and particle copularization) from \citeauthor{pustet-2003} corresponds to a structural distinction, one which has been relatively neglected in the generative literature but which I hope to demonstrate has predictive consequences for the theory of cleft structures. 
+
+In what follows, I will explore the typological predictions for cleft structures raised by this account, concluding that there are two parameters giving rise to three types of cleft possible structures. In sum, this proposal has the upshot of separating ``cleft'' as a descriptive term for a means of dividing the proposition into a salient information-structural partition (typically understood to be a focus-presupposition bipartition \citep{chomsky-1971,jackendoff-1972}. The proposal takes this basic form, to be exemplified below: firstly, cleft clauses, which involve \abar{}-movement, can be constructed in the main clause or in an embedded clause, giving rise to a distinction between mono-clausal and bi-clausal constructions. I take this to be particular to the lexical properties of the C-system in the language. Secondly, the independent availability of a non-verbal particle copula in the language results in a mono-verbal yet bi-clausal cleft. This proposal is summarized in (\ref{tab:typ}).
+
+\bex
+\ex \tbf{Two parameter typology of cleft structures} \label{tab:typ}\\
+\begin{tabular}{ccc}
+\hline\hline
+{} & \multicolumn{2}{c}{Cleft clause is \ldots} \\
+{} & Matrix clause & Embedded clause\\
+\hline
+{No copula} & \makecell{\tbf{Mono-clausal focus}\\Hungarian, Wolof} & N/A \\
+\hline
+{Verbal copula} &  \makecell{N/A} & \makecell{\tbf{Bi-verbal cleft}\\English} \\
+{Particle copula} & N/A & \makecell{\tbf{Mono-verbal cleft}\\Kirundi}\\
+\hline\hline
+\end{tabular}
+\fex
+
+Consider firstly the mono-clausal focus construction, exemplified by Hungarian and Wolof. These constructions express a cleft-like interpretation but within a single clause. Each of these constructions is the result of \abar{}-movement of one constituent into the left periphery of the clause, bolded in the examples below. The resulting construction need not be embedded, standing alone as a matrix clause. 
+
+\bex
+\ex \tbf{Hungarian mono-clausal focus construction \citep[p. 249]{ekiss-1998}}
+\bxl
+\ex[]{\gll	Mari \tbf{egy} \tbf{kalapot} nézett   ki magának\\
+		Mary a hat\tsc{.acc} picked out herself.\tsc{acc}\\
+	\glt	`It was a hat that Mary picked for herself'}
+\ex[]{\lb{TopP} Mari \lb{FP} {\tbf{[egy kalapot]}$_{j}$} nézett$_{i}$ \lb{VP} \tit{t}$_{i}$ ki magának \tit{t}$_{j}$]]]}
+\fxl
+\ex \tbf{Wolof mono-clausal focus construction \citep{martinovic-2021move}}
+\bxl
+\ex[]{\gll	Man, Yusu Nduur la a gis\\
+		\tsc{1s.str} Youssou N'Dour C$_{\text{Wh}}$ \tsc{1sg} see\\
+	\glt	`Me, it's Yousouu N'Dour that I saw.'}
+\ex[]{\lb{TopP} Man \lb{CP} \tbf{Yusu Nduur} la \lb{IP} a gis ]]]}
+\fxl
+\fex
+
+Consider now the bi-clausal structures of English clefts. I will roughly follow the FP/raising analysis of clefts proposed by \citet{ekiss-1998} (but see \citealt{hedberg-2000} for alternatives). Crucially, I will diverge from the proposal in \citet{ekiss-1998} slightly, assuming that the English FP is null and selected for by the copula rather than the copula being generated in F. Under this view, the cleft clause is derived by movement into a dedicated Focus phrase in the left periphery of the clause; the resulting structure is an embedded clause, which is obligatorily selected for by embedding material.  
+
+\bex
+\ex \tbf{English bi-clausal, bi-verbal cleft \citep{ekiss-1998}}
+\bxl
+\ex It was to John that I spoke
+\ex \lb{IP}It was \lb{FP} {[to John]$_{i}$} F \lb{CP} that \lb{IP} I spoke \tit{t}$_{i}$]]]
+\fxl
+\fex
+
+The available embedding material in English is limited to the verbal copula \tit{be}. As a result of the requirements for matrix predicates in English to be tensed, and the syntactically verbal nature of the copula, a range of inflectional possibilities are available. Crucially, the resulting cleft is has two syntactically verbal parts: the cleft clause contains the semantically substantive predicate, and the matrix clause contains a semantically expletive verbal copula. 
+
+Finally, turning to the bi-clausal but mono-verbal cleft structure proposed for Kirundi, we have argued here that the structure of the cleft clause roughly mirrors the FP analysis above: a constituent is \abar{}-moved into the left periphery of an embedded clause. The difference between the English and Kirundi structures arises as a result of the richer predicative strategies of Kirundi. In addition to having a verbal copula \tit{-ri}, Kirundi has a non-verbal copula \tit{ni} which can function as a matrix clause, albeit a syntactically deficient one. Specifically, it lacks tense entirely. Rather than stipulate this lack of inflection, this deficiency is instead tied to the non-verbal nature of \tit{ni}; since it is not a verb, no part of the verbal functional structure is licensed (that is, \tsc{infl} and C; see e.g., \citealt{grimshaw-2000} on extended projections).
+
+\bex
+\ex \tbf{Kirundi bi-clausal mono-verbal cleft}
+\bxl
+\ex []{\gll	Ni \tbf{igitabu}$_{1}$ {[}Yohaáni a-a-som-yé \gap$_{1}$]\\
+		\tsc{ni} 7book Yohani \tsc{1sm-pst-}read-\tsc{pfv.rel} {}\\
+	\glt	`It's \tsc{the book} that Yohani read.'
+	} 
+\ex[]{\lb{PredP} \tit{pro} ni \lb{CP} \tbf{igitabu}$_{1}$ C \lb{TP} Yohaáni yasomyé \tit{t}$_{1}$]]]}
+\fxl
+\fex
+
+One final piece of evidence for this view is that, when the entire cleft construction is tensed, such as in the case of providing information that no longer holds, the verbal copula may be used. The resulting cleft is apparently uncommon, with speaker favouring marking tense on the embedded predicate, and is not discussed in previous work on Kirundi clefts. Nonetheless, insofar as it is acceptable, it crucially differs in that it requires inflection and agreement with a default class, presumably with a discourse-salient \tit{pro} (rather than the clefted constituent).
+
+\bex
+\ex []{\gll	a-a-ri \tbf{igitabu}$_{1}$ {[}Yohaáni a-a-som-yé \gap$_{1}$]\\
+		\tsc{1sm-pst-cop} 7book Yohani \tsc{1sm-pst-}read-\tsc{pfv.rel} {}\\
+	\glt	`It was \tsc{the book} that Yohani read.'
+	} 
+\fex
+
+%\bit
+
+%	\item Clefts in languages such as Hungarian \citep{ekiss-1998} and Wolof \citep{klecha-martinovic-2015} are mono-clausal
+%	\item Clefts in languages such as English are bi-clausal and bi-verbal \citep{hedberg-2000}
+%	\item Clefts in Kirundi, I argue, are bi-clausal but mono-verbal; the upper clause is headed by a non-verbal Pred and therefore lacks verbal functional categories (\tsc{infl} and C; see \citealt{grimshaw-2000})
+%\fit
+
+%As a sketch of the analysis: (At this point, we may ask ourselves what parts of the analysis proposed here are part of the typology? what parts of this are incidental? I will claim that there are two parameters related parameters deriving the three-way structural split)
+%- the CP with fronting is matrix (= non-cleft) or the CP is embedded (=cleft, with matrix pleonastic support, cf. hedberg 2000 for view that matrix is semantically substantive);
+%- Pred as a main clause predication strategy lends itself to being used as a defective matrix clause.  (Pred available = mono-verbal, only verbal copula = bi-verbal)
+%\bit
+%\item Pred and \tit{v} are functionally equivalent; the latter appears obligatorily with verbal predicates (and locational predicates, see \S\ref{sec:copula}) whereas the latter appears elsewhere \citep{bowers-1993,bowers-2002,adger-ramchand-2003}
+%\item Pred is lexicalized as \tit{ni}, \tit{v} is phonologically null with verbal predicates or realized as the copula \tit{-ri} with non-verbal predicates
+%\item Cleft CPs are formed with an embedding complementizer (with high tone); the matrix clause is semantically defective (contra, e.g., \citealt{hedberg-2000}).
+%\item The lack of inflection in the upper clause is derived from the lack of verbal material, rather than stipulated as in \citet{zentz-2016ho,zentz-2016}
+%\fit
+
+The upshot of this proposal, to reiterate, is that the term ``cleft'' must be understood as subsuming a wider class of structural configurations than previously recognized. That is, while ``cleft'' is a useful shorthand for a set of correspondences between a re-ordering of constituents relative to some information structurally neutral form and the information structural effects, the syntactic means languages have to achieve this correspondence is determined by language-specific lexical properties. Nonetheless, I propose that the constructions can be unified under the shared \abar{}-movement structures, framed in the trees in (\ref{ex:typology-struc}).
+
+\bex
+\ex\label{ex:typology-struc}\bxl
+\ex[]{\tbf{Hungarian monoclausal (=``cleft-like'') focus construction } \\
+\scriptsize
+\begin{forest}
+for tree = {fairly nice empty nodes,fit=band}
+		[CP, draw
+			[XP\\``focus'', name=xp]
+			[{}
+				[C]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\ex[]{\tbf{English biverbal biclausal cleft} \\
+\scriptsize
+\begin{forest}
+for tree = {fairly nice empty nodes,fit=band}
+[CP
+[C]
+[InflP
+[Infl [V\\\tsc{be}] [Infl]]
+[VP
+	[\tit{pro}]
+	[{}
+		[\tit{t}$_{\text{V}}$\\]
+		[CP, draw
+			[XP\\``focus'', name=xp]
+			[{}
+				[C]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]]]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\ex[]{\tbf{Kirundi monoverbal biclausal cleft} \\
+\scriptsize
+\begin{forest}
+for tree = {fairly nice empty nodes,fit=band}
+[PredP
+	[\tit{pro}]
+	[{}
+		[Pred\\\tit{ni}]
+		[CP, draw
+			[XP\\``focus'', name=xp]
+			[{}
+				[C]
+				[TP [\ldots{} \tit{t} \ldots, roof, name=tp]]
+			]
+		]
+	]
+]
+\draw[->, rounded corners=1ex] (tp.south) -- ++(south:0.25em) -| (xp.south) node [near end, fill=white] {\abar{}-mvt};
+\end{forest}
+}
+\fxl
+\fex
+
+As seen above, this typology rests on two (ultimately lexical) distinctions. I take this two-parameter typology be exhaustively exemplified by the languages represented here by Hungarian, English, and Kirundi. That is, Kirundi represents a third member of a typological system already implicit in the work of \citet{ekiss-1998}.Firstly, the cleft/non-cleft distinction such as those traditionally made between English clefts and Hungarian pre-verbal focus are instead a result of whether the high functional structure involved in these constructions (say, FP) is a licit matrix clause in the language, or whether it must be embedded. I take this to be an independently needed lexical specification to rule out, for instance, matrix clauses headed by \tit{that}. In English, the FP-headed clause is obligatorily embedded, whereas Hungarian FP-headed clauses need not be. 
+
+The second parameter is the verbality of the matrix clause, and is motivated here by the distinct properties of Kirundi clefts presented in this paper. The parameter makes use of the verbal/particle copula distinction from \citet{pustet-2003} to show that, even for bi-clausal constructions, there are distinct structural possibilities. Ultimately, this rests on the language-specific availability for non-verbal structure (i.e., the particle-copula headed PredP) to be a matrix clause \tit{without} additional functional structure surmounting it. Kirundi \tit{ni}, I claimed, is an instance of such a language that permits this.
+ 
+This final point on multiple copulas having distinct categorical specifications, furthermore, demonstrates that there are multiple ways to build a multicopular system. While the typical example of a multicopular system involves two clearly verbal elements (though these elements may be defective in some way), I argue that Kirundi shows that this is not the only state of affairs. Instead, multicopular systems might be the result of multiple instances of the same ``copularization strategy'' (i.e., Spanish has two verbal copulas), or the result of multiple ``copularization strategies'' entirely. This suggests the need to revisit cases of languages multiple copulas in order to establish whether we are truly dealing with multiple members of the same syntactic kind, or with two different syntactic kinds. 
+
+%FIXME: Section on predictions
+%\bit
+%\item detail the non-cleft cleft distinction, and the symmetric and asymmetric distinction sketched above. 
+%\item Reiterate the claim that ``cleft'' as a descriptive term does not signify a unification, even among clear bi-clausal constructions; illustrate non-cleft (hungarian, wolof), mono-verbal (kirundi), bi-verbal (english/french).
+%\item spell out the particle/verbal copula distinction from Pustet (largely unnoticed in generative work) and tie this to a structural distinction
+%\item finally, multicopular systems can be built in two ways: multiple instances of the same ``copularization strategy'' (pustet; i.e., Spanish), or multiple ``copularization strategies'' (i.e., Kirundi = verbal, particle; see Gaelic)
+%\fit
+%
+%Bantu clefts as symmetrical (if defective) clefts (zentz etc...)
+%
+%Kinande has overt FOC, can be further embedded by ni but NOT obligatorily as in Kirundi. (schneider zioga)
+%Lubukusu has verbal thing up top, ni is in the left-periphery (wasike), but see diercks!
+%
+
+%The ideal overt left peripheral :: ex. Gbe, Wolof, BANTU: Kinande (schneider-zioga)
+%Sub-ideal :: Hungarian (overt spec, no head)
+
+%monoclausal v biclausal analyses
+
+% i.e., not Topic, not Focus, not EI
+%Adger and Ramchand on Pred ~ v, and the specifics of this analysis.
+
+%adverbial fronting... Zentz, abels/muriungi, and my own data (with some variation...) if there are two clauses, the top clause doesn't seem to be a full clause in the same way.
+
+%data
+
+%This might be better in the latter section. briefly explain the main point here, then point to the infl-pred sectino.
+% note that the Pred/v distinction here is intended to be more than a notational convenience. In this view, non-verbal Pred does not occur with verbal inflection (infl) whereas v is suntactically a verb and therefore must. The prediction made is that ni is restricted from all and any contexts where verbal inflection is independently required (which I will show in section x); the verbal copula in Kirundi and elsewhere, while often defective, crucially has a subset of verbal properties and distribution. Verbal copular constructions are syntactically verbal, whereas non-verbal copular constructions are syntactically non-verbal; to place such non-verbal copulas in a verbal frame by virtue of their ``copular function'' and by (implicit_ analogy to languages with verbal copulas obscures the distributional differences, and leaves the distributional restrictions on the copula unexplained or stipulated.
+
+% Bura as a case study where FM/cop might be T, as with romance and english
+% Bantu Kirundi as case study where FM/cop is explicitly NOT T or v or any segment of the verbal spine,
+
+
+%\section{Full clefts and non-clefts as focus strategies cross-linguistically} \label{sec:x-ling}
+%
+%A large body of literature has grown around the topic of particle-accompanied focus constructions in African languages, especially with respect to their status as evidence for a Rizzian left-peripheral analysis (aboh etc.). In particular, this view presupposes that these focus constructions are monoclausal structures; the focus marker is most often taken as directly instantiating the left-peripheral Foc head. 
+%
+%Bantu languages in particular have posed a persistent difficulty to this view. In this section, I will discuss the word order between the focused constituent and the particle in Kirundi and other Bantu languages, which make a monoclausal left-periphery analysis of \tit{ni} undesirable. I discuss one particular analysis...
+%
+%After outlining the left-peripheral Foc$^0$ analysis, I will defend the opposite conclusion presented above (not alone, see citations) which relies on the formal similarity of the focus markers with the copula in non verbal predication. this view also articulates a precise way in which the two syntactic clauses of clefts can be structurally asymmetric
+%
+%\subsection{Bantu left-peripheral word order: Against a Foc analysis of \tit{ni}}
+%
+%Schwarz (2007) and discussion of [ni XP] word order contrasting from non-Bantu [XP fm] word order (easily amenable to Rizzian analysis)
+%
+%Despite similarity in the pre-focus position of the putative focus marker, Kirundi \tit{ni} fronting constructions represent a comparatively restricted word-order to similar constructions across Bantu. :: Pre-predicative position in Kiitharaka, etc.
+%
+%Kiitharaka/Shona temporal adverbial fronting examples: could be about TP rather than about a clause boundary.
+%
+%\subsection{On the matrix clause of clefts}
+%%heggie, hedberg 2000
+
+
+
+\section{Conclusions and outlook}
+
+
+In this paper, I have presented a novel analysis of Kirundi cleft constructions and non-verbal predication, each revolving around the central idea that they are both instances of a non-verbal root clause. More specifically, I have argued for the view that such non-verbal root clauses is syntactically highly deficient, lacking inflectional categories present in clauses with a verbal predicate. This proposal rests on the claim that this categorical distinction underlies the \tit{ni} and \tit{-ri} alternation, in both the cleft uses and particle copula contexts. 
+
+If this proposal is on the right track, I have shown that there are cleft-like constructions across languages fall into at least three types, but are unified by the common core of \abar{}-movement deriving the classical bipartition between a `focussed' element and the presupposed content. If the result of this movement is licit as a matrix clause, which I take to be determined by the language-specific lexical item which heads the CP to which the constituent \abar{}-moves, then the result is a mono-clausal focus construction such as Hungarian or Wolof. If the CP is obligatorily embedded and the only embedding material in the language is syntactically verbal, then the cleft construction derived is bi-verbal, consisting to two articulated verbal extended projections. Finally, in the language has a syntactically non-verbal predicator like \tit{ni}, then the result is still a bi-clausal cleft construction, but one in which the root clause is defective. 
+
+From this conclusion, there are two lines of further research that appear to be relevant. Firstly, there has been some debate on the mono-/bi-clausal status of similar constructions across the Bantu languages. I hope to have shown that the distinction is too coarse-grained, and needs to be separated into two separate questions: (i) whether the lower clause has the properties of a root clause or an embedded clause, and (ii) whether the root clause contains a fully articulated verbal extended projection. Secondly, I have relied on the notion of a particle copula from work by \citet{pustet-2003}, wherein it is shown that the term ``copula'' may in fact apply to structurally distinct items. In much generative work on these constructions, however, the implicit assumption appears to be that the copula is uniformly a verbal element, albeit a defective one. I hope to have made the case that this is not a necessary assumption, and that in fact there are empirical and analytical reasons to dispense with it for languages where, unlike with English \tit{be}, the copula is morphosyntactically differentiable from the rest of the verbs in the language.
+
+
+%Points made: 
+%\bit
+%\item Local point: novel analysis for Kirundi where clefts are \abar{}-constructions, crucially distinct from relative clauses
+%\item A structural distinction between verbal and non-verbal copulas
+%\item Novel analysis for clefts in Bantu, adopting the above distinction
+%\item Proposes an outline for a structural typology of the descriptive label ``cleft'': non-cleft, symmetrical, and asymmetrical cleft.
+%\fit
+
+%%% BIBLIOGRAPHY
+\clearpage
+	\setlength{\bibsep}{0.0pt}
+	\bibliographystyle{linquiry2}
+	\bibliography{bibtex-gatch}
+
+\end{document}
