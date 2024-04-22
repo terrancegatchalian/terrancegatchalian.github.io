@@ -25,9 +25,9 @@ Please get in touch for any papers not available here.
 ## Presentations
 
 * Two Optional Past "Tenses" in Kanien'kéha (2024). [[handout]]()
-  - Talk presented at the [[42nd West Coast Conference of Formal Linguistics (WCCFL 42)]](https://www.wccfl42.com/), University of California, Berkeley, 12--14 April.
-  - Talk presented at the [[Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 27]](https://wscla2024.ca/), University of Toronto, 26--28 April.
-  - Talk presented at [[Semantics and Linguistic Theory (SALT) 34]](https://saltconf.github.io/salt34/), University of Rochester, 28--30 May. 
+  - Talk presented at the [42nd West Coast Conference of Formal Linguistics (WCCFL 42)](https://www.wccfl42.com/), University of California, Berkeley, 12--14 April.
+  - Talk presented at the [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 27](https://wscla2024.ca/), University of Toronto, 26--28 April.
+  - Talk presented at [Semantics and Linguistic Theory (SALT) 34](https://saltconf.github.io/salt34/), University of Rochester, 28--30 May. 
 
 * Focus fronting and copular constructions in Kirundi (2023). [[handout]](/_pages/papers/gatchalian-acal54-kirundi.pdf)
   - Talk presented at the [Annual Conference on African Linguistics (ACAL) 54](https://uconnuecs.cventevents.com/event/aef2d257-6a6a-41b5-b83d-2c6efc60aac5/summary), University of Connecticut, Storrs, CT, 12-14 June.
