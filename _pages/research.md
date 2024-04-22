@@ -24,11 +24,13 @@ Please get in touch for any papers not available here.
 
 ## Presentations
 
+### 2024
 * Two Optional Past "Tenses" in Kanien'kéha (2024). [[handout]]()
   - Talk presented at the [42nd West Coast Conference of Formal Linguistics (WCCFL 42)](https://www.wccfl42.com/), University of California, Berkeley, 12--14 April.
   - Talk presented at the [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 27](https://wscla2024.ca/), University of Toronto, 26--28 April.
   - Talk presented at [Semantics and Linguistic Theory (SALT) 34](https://saltconf.github.io/salt34/), University of Rochester, 28--30 May. 
 
+### 2023
 * Focus fronting and copular constructions in Kirundi (2023). [[handout]](/_pages/papers/gatchalian-acal54-kirundi.pdf)
   - Talk presented at the [Annual Conference on African Linguistics (ACAL) 54](https://uconnuecs.cventevents.com/event/aef2d257-6a6a-41b5-b83d-2c6efc60aac5/summary), University of Connecticut, Storrs, CT, 12-14 June.
   - Talk presented at the [BaSIS conference](https://bantusyntaxinformationstructure.com/basis-conference/), Leiden University, the Netherlands, 8-9 June. 
@@ -38,13 +40,15 @@ Please get in touch for any papers not available here.
 * _with Tehokwiráthe Cross, [Katya Morgunova](https://morgunova-katya.github.io/), [Willie Myers](https://williemyers.com/), Ro’nikonhkátste Norton_. Lexical aspect and the stative present in Kanien’kéha (2023). Talk presented at [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 2023](https://wscla2023.mull-lab.org/), McGill University, Montréal, 28-30 April.
 
 * *with Rose Underhill & Anne Bertrand.* A typology of roots in Ktunaxa (2023). Talk presented at [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 2023](https://wscla2023.mull-lab.org/), McGill University, Montréal, 28-30 April.
-  
+
+### 2022
 * What’s in a copula: Non-verbal predication in Kirundi. (2022). Talk presented at Ba-TOM: The 1st Toronto-Montreal Bantu Colloquium, University of Toronto Scarborough, Toronto, 27-28 May 2022.
 
 * The composition of Ktunaxa causatives: Argument- and event-structure restrictions. (2022). Poster presented at the [Canadian Linguistics Association Annual Meeting](https://cla-acl.ca/programmes/congres-de-2022-meeting.html), online. 
 
 * Building Ktunaxa Causatives. (2022). Talk presented at [The 10th Montréal-Ottawa-Toronto-Hamilton Syntax Workshop (MOTH)](https://sites.google.com/view/moth2022/home), Université du Québec à Montréal, Montréal, 22-23 April.
 
+### 2019
 * Deverbal Nominalizations in Ktunaxa. (2019). The [8th Workshop on Nominalizations/8èmes Journées d’Etude sur les Nominalisation (Jenom 8)](https://sites.google.com/view/jenom-nominalizations/home). University of Stuttgart, Germany, 21-22 June.
 
 ## Manuscripts
