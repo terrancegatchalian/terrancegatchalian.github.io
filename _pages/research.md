@@ -25,7 +25,7 @@ Please get in touch for any papers not available here.
 ## Presentations
 
 ### 2024
-* Two Optional Past "Tenses" in Kanien'kéha (2024). [[handout]]()
+* Two Optional Past "Tenses" in Kanien'kéha (2024). [[handout]](/_pages/papers/optional-tense-wscla.pdf)
   - Talk presented at the [42nd West Coast Conference of Formal Linguistics (WCCFL 42)](https://www.wccfl42.com/), University of California, Berkeley, 12--14 April.
   - Talk presented at the [Workshop on Structure and Constituency in Languages of the Americas (WSCLA) 27](https://wscla2024.ca/), University of Toronto, 26--28 April.
   - Talk presented at [Semantics and Linguistic Theory (SALT) 34](https://saltconf.github.io/salt34/), University of Rochester, 28--30 May. 
