@@ -5,4 +5,4 @@ sitemap: false
 permalink: /cv/
 ---
 
-CV to appear here
+CV: [[PDF]](/_pages/papers/gatchalian-cv-20240814.pdf)
