@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-This page is up-to-date as of: 01-Jan-2023. <br>
+This page is up-to-date as of: 10-Sept-2024. <br>
 This page lists selectd projects. For a more complete list, see my [CV](https://terrancegatchalian.github.io/cv/).
 Please get in touch for any papers not available here.
 
