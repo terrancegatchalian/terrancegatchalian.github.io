@@ -14,4 +14,4 @@ I received my Ph.D from the Department of Linguistics at [McGill University](htt
 
 My current research interests revolve around questions of **tense, aspect, mood**, **argument structure**, and **verbal syntax**. My research primarily engages with these and other aspects of **Ktunaxa** \[ktu.ˈnʌ.χa], a language isolate spoken in the Columbia River Basin, and **Kanien'kéha**, an Iroquoian language spoken in Ontario, Quebec, and New York.
 
-You can contact me at: terrance \[dot] gatchalian \[at] mail \[dot] mcgill \[dot] ca.
+You can contact me at: terrance \[dot] gatchalian \[at] utoronto \[dot] ca.
