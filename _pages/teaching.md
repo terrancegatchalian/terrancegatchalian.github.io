@@ -5,6 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
+In addition to my teaching in university settings, I have been part of teaching weekly Ktunaxa language classes online since 2020. 
+
 ## Instructor of Record
 ### At McGill University
 
